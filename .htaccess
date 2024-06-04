@@ -3,5 +3,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 
 RewriteRule ^(.*)$ public/$1.php
+RewriteRule ^admin$ admin/index.php
+
+RewriteRule ^wireframe2$ wireframe2/index.php
+RewriteRule ^wireframe2/admin$ wireframe2/admin/index.php
 
 ErrorDocument 404 /public/core/errors/404.php

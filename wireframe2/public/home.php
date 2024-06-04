@@ -8,10 +8,7 @@
     <title>HOME | siteName</title>
 
     <link rel="icon" href="">
-
-<!--    Linking of the css files-->
     <link rel="stylesheet" href="/public/assets/css/style.css">
-
 <!--    Linking of the javascript files, defer = reading/link the file at last-->
     <script defer src="/public/assets/js/app.js"></script>
 </head>
@@ -19,16 +16,19 @@
 <body>
 
 <header>
-<!--    Getting the header document-->
     <?php include "public/core/header.php" ?>
 </header>
 
 <main>
-    <p>Main</p>
-</main>
-
+        <section class="slider">
+            <h2>Slider section = Zakaria (en vragen aan Riley om details)</h2>
+        </section>
+        <section class="Main=Zakaria">
+            <h2>Main Content</h2>
+            <p>Dit is waar de main komt</p>
+        </section>
+    </main>
 <footer>
-<!--    Getting the footer document-->
     <?php include "public/core/footer.php" ?>
 </footer>
 

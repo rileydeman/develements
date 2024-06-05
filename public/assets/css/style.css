@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: var();
+    background-color: var(--primary-color);
 }
 
 /* Basic reset */

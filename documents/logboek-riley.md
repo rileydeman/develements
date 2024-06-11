@@ -1,5 +1,6 @@
 # Logboek Riley de Man
 
+
 ## 10/06/2024
 - Zorgen dat iedereen uit het groepje een .md bestand heeft voor zijn logboek
 - Paar trello kaartjes door gezet => Trello
@@ -11,7 +12,7 @@
 - Trello board kaartjes een klein beetje verbeterd => Trello
 - CMS prototype 1 (mobile) klaar => Figma
 - Documenten verplaatst van de OneDrive naar de Github => OneDrive & Github
-- Eigen logboek omgezet van .docx naar .md
+- Eigen logboek omgezet van .docx naar .md => Word & Code
 
 ## 05/06/2024
 - Trello board geupdate wegens nieuwe strategie => Trello

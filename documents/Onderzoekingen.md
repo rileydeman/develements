@@ -5,23 +5,24 @@ Onderzoek naar 3 concurrenten:
 donhoveniers.nl
 jansenhoveniers.com
 
-donhoveniers:
+donhoveniers
 
 Voordelen:
-Ze hebben een kort proces laten zien op de website hoe het werk geregeld wordt.
+
+- Ze hebben een kort proces laten zien op de website hoe het werk geregeld wordt.
 ---
-Ze hebben hun tuinontwerpen gecategoriseerd in meerdere delen. (Landelijke tuinen, moderne tuinen, wellness tuinen etc.)
+- Ze hebben hun tuinontwerpen gecategoriseerd in meerdere delen. (Landelijke tuinen, moderne tuinen, wellness tuinen etc.)
 ---
-In visuele context hebben ze extra dingen gedaan zoals de cursor veranderen als je op een plaatje hovered.
+- In visuele context hebben ze extra dingen gedaan zoals de cursor veranderen als je op een plaatje hovered.
 ---
-Layout is anders zoals het navigeren. Ze hebben geen navbar maar gebruiken losse blokjes
+- Layout is anders zoals het navigeren. Ze hebben geen navbar maar gebruiken losse blokjes
 ---
-Een groot bewegende plaatje aan het begin van de landing page
+- Een groot bewegende plaatje aan het begin van de landing page
 
 Nadelen:
-Ze hebben een nieuwspagina. Leuk, maar kost extra veel werk en maintenance
+- Ze hebben een nieuwspagina. Leuk, maar kost extra veel werk en maintenance
 ---
-Een stuk van de pagina bevat een uitleg over het soort tuin, maar er is veel ruimte over wat het een beetje overbodig maakt
+- Een stuk van de pagina bevat een uitleg over het soort tuin, maar er is veel ruimte over wat het een beetje overbodig maakt
 ---
 
 
@@ -29,31 +30,33 @@ Een stuk van de pagina bevat een uitleg over het soort tuin, maar er is veel rui
 jansenhoveniers.com
 
 Voordelen:
-Heeft andere services
+
+- Heeft andere services
 ---
-Gebruik van andere soorten fonts
+- Gebruik van andere soorten fonts
 ---
-Bewegende plaatjes
+- Bewegende plaatjes
 ---
-Layout is meer abstract en maakt het unieker
+- Layout is meer abstract en maakt het unieker
 ---
-Interesante intro voor landing page
+- Interesante intro voor landing page
 ---
-Verdiept zich ook in hout- en zwembaden bouw
+- Verdiept zich ook in hout- en zwembaden bouw
 
 
 Nadelen:
-Burger menu werkt niet
+
+- Burger menu werkt niet
 ---
-abstract is uniek maar dat laat het asymmetrisch waardoor het er slordig uit kan zien
+- abstract is uniek maar dat laat het asymmetrisch waardoor het er slordig uit kan zien
 ---
-Slideshow pijltjes werken niet
+- Slideshow pijltjes werken niet
 ---
-Intro duurt best lang
+- Intro duurt best lang
 ---
-Heeft geen extra page voor documentatie/presentatie eindresultaten
+- Heeft geen extra page voor documentatie/presentatie eindresultaten
 ---
-Geen klanten recensies
+- Geen klanten recensies
 
 
 

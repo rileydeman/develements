@@ -1,6 +1,6 @@
 Concurrentieonderzoek
 
-Onderzoek naar 3 concurrenten:
+Onderzoek naar 2 concurrenten:
 
 donhoveniers.nl
 jansenhoveniers.com

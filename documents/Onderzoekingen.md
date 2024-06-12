@@ -2,8 +2,9 @@ Concurrentieonderzoek
 
 Onderzoek naar 2 concurrenten:
 
-donhoveniers.nl
-jansenhoveniers.com
+- donhoveniers.nl
+
+- jansenhoveniers.com
 
 donhoveniers
 

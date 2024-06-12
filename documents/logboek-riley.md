@@ -1,5 +1,10 @@
 # Logboek Riley de Man
 
+## 12/06/2024
+- CMS prototype 2 (desktop) navigatie/sidebar klaar => Figma
+- CMS prototype 2 (desktop) header klaar => Figma
+- CMS prototype 2 (desktop) footer klaar => Figma
+- CMS prototype 2 (desktop) volledig klaar -> Figma
 
 ## 10/06/2024
 - Zorgen dat iedereen uit het groepje een .md bestand heeft voor zijn logboek

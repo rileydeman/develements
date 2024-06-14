@@ -12,6 +12,12 @@
 
 ## Week 2
 
+### 14/06/2024
+- CMS prototype 2 (tablet/ipad) header klaar => Figma
+- CMS prototype 2 (tablet/ipad) footer klaar => Figma
+- CMS prototype 2 (tablet/ipad) menu klaar => Figma
+- CMS prototype 2 (tablet/ipad) volledig klaar => Figma
+
 ### 13/06/2024
 - CMS prototype 2 (mobile) header klaar => Figma
 - CMS prototype 2 (mobile) footer klaar => Figma

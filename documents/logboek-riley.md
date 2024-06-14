@@ -17,6 +17,7 @@
 - CMS prototype 2 (tablet/ipad) footer klaar => Figma
 - CMS prototype 2 (tablet/ipad) menu klaar => Figma
 - CMS prototype 2 (tablet/ipad) volledig klaar => Figma
+- Mailtje naar de klant met de besproken punten tijdens de presentatie => Outlook
 
 ### 13/06/2024
 - CMS prototype 2 (mobile) header klaar => Figma

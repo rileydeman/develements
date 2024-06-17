@@ -20,26 +20,26 @@
 
 <body>
 
-<header>
-    <!--    Getting the header document-->
-    <?php include "core/header.php" ?>
-</header>
+    <header>
+        <!--    Getting the header document-->
+        <?php include "core/header.php" ?>
+    </header>
 
-<aside>
-    <?php include "core/menu.php"?>
-</aside>
+    <aside>
+        <?php include "core/menu.php" ?>
+    </aside>
 
-<main>
-    <div id="content">
-        <p>Main</p>
-    </div>
+    <main>
+        <div id="content">
+            <p>Main</p>
+        </div>
 
 
-    <footer>
-        <!--    Getting the footer document-->
-        <?php include "core/footer.php" ?>
-    </footer>
-</main>
+        <footer>
+            <!--    Getting the footer document-->
+            <?php include "core/footer.php" ?>
+        </footer>
+    </main>
 
 </body>
 

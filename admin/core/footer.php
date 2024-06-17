@@ -1,1 +1,1 @@
-<p>Footer</p>
+<p>&copy; 2024-<?= date("Y") ?> DevElements | <?= "CMS_VERSION" ?></p>

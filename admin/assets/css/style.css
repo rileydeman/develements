@@ -14,6 +14,10 @@
     margin: 0;
 }
 
+p {
+    font-family: lato;
+}
+
 body {
     background-color: var(--primary-color);
     width: 100%;
@@ -34,6 +38,7 @@ aside {
     grid-area: aside;
     background-color: var(--senary-color);
     overflow-y: scroll;
+    color: #FFFFFF;
 
     &:hover {
         &::-webkit-scrollbar-thumb {
@@ -61,4 +66,13 @@ main {
 ::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: 1vh;
+}
+
+footer {
+    border-top: 2px solid var(--secondary-color);
+    padding: .5% 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

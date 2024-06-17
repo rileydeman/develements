@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
     <link rel="stylesheet" type="text/css" href="indexphp.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <title>Main page</title>
 </head>
 <body>
     <header>
@@ -21,7 +22,20 @@
     <main>
         <section id="home">
             <h2>Home</h2>
-            <p>This is the home section.</p>
+            <h1>Auto - Image Slider HTML and CSS</h1>
+            <div class="slider-frame">
+                <div class="slide-images">
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin1.webp">
+                        </div>
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin2.jpeg">
+                        </div>
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin3.jpeg">
+                        </div>
+                </div>
+            </div>
         </section>
         <section id="about">
             <h2>About</h2>

@@ -12,6 +12,7 @@
     <!--    Linking of the css files-->
     <link rel="stylesheet" href="/admin/assets/css/fonts.css">
     <link rel="stylesheet" href="/admin/assets/css/style.css">
+    <link rel="stylesheet" href="/admin/assets/css/header.css">
 
     <!--    Linking of the javascript files, defer = reading/link the file at last-->
     <script defer src="/admin/assets/js/app.js"></script>
@@ -29,7 +30,10 @@
 </aside>
 
 <main>
-    <p>Main</p>
+    <div id="content">
+        <p>Main</p>
+    </div>
+
 
     <footer>
         <!--    Getting the footer document-->

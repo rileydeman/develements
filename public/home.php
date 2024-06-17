@@ -10,6 +10,7 @@
     <link rel="icon" href="">
 
 <!--    Linking of the css files-->
+    <link rel="stylesheet" href="/public/assets/css/fonts.css">
     <link rel="stylesheet" href="/public/assets/css/style.css">
 
 <!--    Linking of the javascript files, defer = reading/link the file at last-->

@@ -7,7 +7,8 @@
 
 ## Week 3
 
-### #soon
+### 17/06/2024
+- Een paar kaartjes toegevoegd aan mijn trello lijst => Trello
 
 
 ## Week 2

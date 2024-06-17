@@ -24,8 +24,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-areas:
-            "aside header"
-            "aside main";
+        "aside header"
+        "aside main";
     grid-template-rows: 8% 92%;
     grid-template-columns: 20% 80%;
 }
@@ -53,6 +53,7 @@ main {
 
     #content {
         min-height: 85vh;
+        padding: .5% 1%;
     }
 
     &:hover {
@@ -79,4 +80,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    a {
+        text-decoration: none;
+        color: var(--tertiary-color);
+    }
 }

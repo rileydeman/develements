@@ -28,15 +28,37 @@ body {
 
 header {
     grid-area: header;
-    background-color: #FF0000;
 }
 
 aside {
     grid-area: aside;
-    background-color: #00FF00;
+    background-color: var(--senary-color);
+    overflow-y: scroll;
+
+    &:hover {
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--secondary-color);
+        }
+    }
 }
 
 main {
     grid-area: main;
-    background-color: #0000FF;
+    overflow-y: scroll;
+
+    &:hover {
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--secondary-color);
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 1vh;
 }

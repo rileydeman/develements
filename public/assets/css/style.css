@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 /* Basic reset */
@@ -51,6 +51,10 @@ nav a {
 }
 
 * {box-sizing:border-box}
+
+li {
+  display: inline;
+}
 
 /* Slideshow container */
 .slideshow-container {

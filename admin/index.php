@@ -1,21 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-AU">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HOME | CMS Hendrik</title>
+
+    <link rel="icon" href="">
+
+    <!--    Linking of the css files-->
+    <link rel="stylesheet" href="/admin/assets/css/fonts.css">
+    <link rel="stylesheet" href="/admin/assets/css/style.css">
+    <link rel="stylesheet" href="/admin/assets/css/header.css">
+
+    <!--    Linking of the javascript files, defer = reading/link the file at last-->
+    <script defer src="/admin/assets/js/app.js"></script>
 </head>
+
 <body>
-<header></header>
 
-<aside></aside>
+    <header>
+        <!--    Getting the header document-->
+        <?php include "core/header.php" ?>
+    </header>
 
-<main>
-    <p>main</p>
-</main>
+    <aside>
+        <?php include "core/menu.php" ?>
+    </aside>
 
-<footer></footer>
+    <main>
+        <div id="content">
+            <p>Main</p>
+        </div>
+
+
+        <footer>
+            <!--    Getting the footer document-->
+            <?php include "core/footer.php" ?>
+        </footer>
+    </main>
+
 </body>
+
 </html>

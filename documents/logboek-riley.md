@@ -9,7 +9,9 @@
 
 ### 17/06/2024
 - Een paar kaartjes toegevoegd aan mijn trello lijst => Trello
-
+- Juiste indeling voor CMS (Desktop) => Code
+- CMS Footer => Code
+- Started at the CMS header => Code
 
 ## Week 2
 

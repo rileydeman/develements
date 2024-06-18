@@ -19,7 +19,7 @@ You are allowed to fork and/or use this repository/template and edit all the fil
 - The header and footer are in the `public/core folder`
 - The 404 page will automaticly shown at not valid urls on your localhost or website, editing the 404 page is possible in the `public/core/errors/404.php` file
 
-## .htacess
+## .htaccess
 
 Mostly the `.htacces` file can't get the good file, in that case go to the `.htaccess file` and add the following code to the file:
 `RewriteRule ^requestName public/requestName.php`

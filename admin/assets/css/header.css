@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+    #container {
+        background-color: var(--tertiary-color);
+        height: 85%;
+        width: 97.5%;
+        padding: .75% 1%;
+        border-radius: 1vh;
+    }
+}

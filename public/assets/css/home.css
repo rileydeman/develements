@@ -1,3 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fixed;
+}
+
+.item-1 {
+    flex: 1; /* This makes sure the text takes available space */
+    display: flex;
+    align-items: center;
+}
+
+.item-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Ensure the image does not overflow */
+    height: auto;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;

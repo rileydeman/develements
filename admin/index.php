@@ -1,3 +1,8 @@
+<?php
+/* @var mysqli $conn */
+include_once("../app/db/db-conn.php");
+?>
+
 <!doctype html>
 <html lang="en-AU">
 
@@ -10,23 +15,24 @@
     <link rel="icon" href="">
 
     <!--    Linking of the css files-->
-    <link rel="stylesheet" href="/admin/assets/css/fonts.css">
-    <link rel="stylesheet" href="/admin/assets/css/style.css">
-    <link rel="stylesheet" href="/admin/assets/css/header.css">
+    <link rel="stylesheet" href="<?= BASEURL_CMS ?>assets/css/fonts.css">
+    <link rel="stylesheet" href="<?= BASEURL_CMS ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= BASEURL_CMS ?>assets/css/header.css">
+    <link rel="stylesheet" href="<?= BASEURL_CMS ?>assets/css/menu.css">
 
     <!--    Linking of the javascript files, defer = reading/link the file at last-->
-    <script defer src="/admin/assets/js/app.js"></script>
+    <script defer src="<?= BASEURL_CMS ?>assets/js/app.js"></script>
 </head>
 
 <body>
 
     <header>
         <!--    Getting the header document-->
-        <?php include "core/header.php" ?>
+        <?php include_once("core/header.php"); ?>
     </header>
 
     <aside>
-        <?php include "core/menu.php" ?>
+        <?php include_once("core/menu.php") ?>
     </aside>
 
     <main>
@@ -37,7 +43,7 @@
 
         <footer>
             <!--    Getting the footer document-->
-            <?php include "core/footer.php" ?>
+            <?php include_once("core/footer.php") ?>
         </footer>
     </main>
 

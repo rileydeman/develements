@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,3 +79,9 @@
     </footer>
 </body>
 </html>
+=======
+<?php
+$page = "home";
+
+include "public/{$page}.php"; ?>
+>>>>>>> 5b6f6c0d3cf3dadf1ec4f019f3ea1681c044d3fb

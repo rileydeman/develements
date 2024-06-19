@@ -1,7 +1,13 @@
 <?php
+//BaseURL
+if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
+    $url = "https";
+} else {
+    $url = "http";
+}
 
-//$connectie = new mysqli('localhost', 'root', '', 'fictieklantopdr');
+$url .= "://{$_SERVER['HTTP_HOST']}";
 
-
-define('BASEURL', 'http://localhost/FictieKlantOpdr/develements/');
-define('RELURL', 'C:/xampp/htdocs/FictieKlantOpdr/develements/');
+define("BASEURL", "{$url}/");
+define("BASEURL_CMS", "{$url}/admin/");
+?>

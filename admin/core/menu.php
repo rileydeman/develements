@@ -1,6 +1,6 @@
 <div id="logo">
     <a href="/admin">
-        <img src="/admin/assets/img/logo_full.png" alt="">
+        <img src="<?= BASEURL_CMS ?>assets/img/logo_full.png" alt="">
     </a>
 </div>
 
@@ -12,7 +12,7 @@
 
 <div id="bottom">
     <a class="btn-primary">
-        <img src="/admin/assets/img/icons/exit.png" alt="">
+        <img src="<?= BASEURL_CMS ?>assets/img/icons/exit.png" alt="">
         <p>Uitloggen</p>
     </a>
 </div>

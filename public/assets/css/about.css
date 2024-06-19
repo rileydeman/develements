@@ -13,7 +13,7 @@
 }
 
 .imageContainer {
-    width: 40%;
+    width: 45%;
     height: 90%;
     background-color: #FF0000;
     background-size: cover;
@@ -48,4 +48,70 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.iconBox {
+    width: 15%;
+    height: 45%;
+    background-size: contain;
+    background-position: center;
+    margin-left: 20px; 
+    background-repeat: no-repeat;
+}
+
+#bigContainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+#contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: var(--secondary-color);
+    width: 30vw;
+    height: 80vh;
+    padding: 10px;
+}
+
+#hendrikImage {
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contactContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: var(--quaternary-color);
+    width: 20vw;
+    height: 80vh;
+    padding: 10px;
+    margin-left: 5vw;
+}
+
+#hendrik {
+    display: flex;
+    flex-direction: row;
+}
+
+#hendrikSpeech {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 10vw;
+    font-size: 0.75vw;
+    font-weight: bold;
+}
+
+.divider {
+    width: 90%; 
+    margin: 4% auto 0 auto;
+    border: none;
+    border-top: 2px solid black;
+    background-color: black;
+    height: 2px;
 }

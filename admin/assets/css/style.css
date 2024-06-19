@@ -29,6 +29,12 @@ body {
     p {
         font-family: lato;
     }
+
+    h1 {
+        color: var(--secondary-color);
+        font-family: Helvetica;
+        font-weight: bold;
+    }
 }
 
 header {

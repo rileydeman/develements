@@ -31,7 +31,44 @@
 </header>
 
 <main>
-    <p>Main</p>
+<section id="home">
+            <h2>Home</h2>
+            <h1>Auto - Image Slider HTML and CSS</h1>
+            <div class="slider-frame">
+                <div class="slide-images">
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin1.webp">
+                        </div>
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin2.jpeg">
+                        </div>
+                        <div class="img-container">
+                            <img src="public/assets/img/Tuin3.jpeg">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+            <div class="about-section">
+        <h1>About Me</h1>
+        <p>Wat tekst over mij en wat ik doe.</p>
+        <p>Dit is hoppelijk resposive</p>
+        </div>
+
+        <div class="row">
+        <div class="column">
+            <div class="card">
+            <img src="/w3images/team1.jpg" alt="Hendrick.BV" style="width:100%">
+            <div class="container">
+                <h2>Hendrik Van Dijk</h2>
+                <p class="title">Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>HendrikVanDijk@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+            </div>
+        </div>
+        </section>
 </main>
 
 <footer>

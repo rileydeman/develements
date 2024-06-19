@@ -10,5 +10,36 @@ header {
         width: 97.5%;
         padding: .75% 1%;
         border-radius: 1vh;
+        display: flex;
+
+        #searchBars {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        #accountName {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        #menuIcon {
+            aspect-ratio: 1/1;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+
+            img {
+                aspect-ratio: 1/1;
+                height: 90%;
+            }
+        }
     }
 }

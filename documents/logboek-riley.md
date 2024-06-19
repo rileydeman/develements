@@ -9,6 +9,9 @@
 
 ### 19/06/2024
 - Menu/Navigation ready for use => Code
+- Grote bugs/problemen oplossen (samen met Jayden) => Code & GitHub
+- CMS nav.json opgezet (was al gekoppeld aan het menu van de CMS) => Code
+- Start gemaakt aan de header => Code
 
 ### 17/06/2024
 - Een paar kaartjes toegevoegd aan mijn trello lijst => Trello

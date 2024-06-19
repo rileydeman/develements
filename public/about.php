@@ -76,7 +76,17 @@
                     </div>
                 </div>
                 <div id="contactContainer2">
-
+                    <div id="extraContainer2">
+                        <small>telefoonnummer: </small>
+                        <h1>+06 123456789</h1><br>
+                        <hr class="divider">
+                        <a target=”_blank”
+                            href="https://www.google.com/maps/place/Hoefstraat+42,+4265+HV+Genderen/@51.734793,5.0837797,17.91z/data=!4m6!3m5!1s0x47c692058071c215:0x37e244aea3c8904b!8m2!3d51.7347078!4d5.0836166!16s%2Fg%2F11c5lstlvl?entry=ttu">
+                            <div id="mapsImage"
+                                style='background-image: url("./public/assets/img/maps.png");margin: 50% auto 0 auto;'>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

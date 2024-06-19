@@ -44,9 +44,9 @@ include('../app/db/db-conn.php');
     </div>
 </main>
 
-<header>
+<footer>
     <?php include('core/footer.php');?>
-</header>
+</footer>
 
 </body>
 

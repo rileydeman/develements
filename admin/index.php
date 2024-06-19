@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/admin/assets/css/fonts.css">
     <link rel="stylesheet" href="/admin/assets/css/style.css">
     <link rel="stylesheet" href="/admin/assets/css/header.css">
+    <link rel="stylesheet" href="/admin/assets/css/menu.css">
 
     <!--    Linking of the javascript files, defer = reading/link the file at last-->
     <script defer src="/admin/assets/js/app.js"></script>

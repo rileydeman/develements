@@ -14,10 +14,6 @@
     margin: 0;
 }
 
-p {
-    font-family: lato;
-}
-
 body {
     background-color: var(--primary-color);
     width: 100%;
@@ -28,6 +24,10 @@ body {
         "aside main";
     grid-template-rows: 8% 92%;
     grid-template-columns: 20% 80%;
+
+    p {
+        font-family: lato;
+    }
 }
 
 header {
@@ -37,13 +37,10 @@ header {
 aside {
     grid-area: aside;
     background-color: var(--senary-color);
-    overflow-y: scroll;
     color: #FFFFFF;
 
-    &:hover {
-        &::-webkit-scrollbar-thumb {
-            background-color: var(--secondary-color);
-        }
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -84,5 +81,28 @@ footer {
     a {
         text-decoration: none;
         color: var(--tertiary-color);
+    }
+}
+
+.btn-primary {
+    padding: 1.5% 2%;
+    background-color: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 1vh;
+
+    img {
+        aspect-ratio: 1/1;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        border: 2px solid var(--secondary-color);
+        cursor: pointer;
     }
 }

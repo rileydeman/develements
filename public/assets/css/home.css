@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #f5f5f5;
+    --secondary-color: #5DBB63;
+    --tertiary-color: #234F1E;
+    --quaternary-color: #b2d3c2;
+    --quinary-color: #0000;
+    --senary-color: #4A4A4A;
+    --septenary-color: #fccc6a;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fixed;
+}
+
+.item-1 {
+    flex: 1; /* This makes sure the text takes available space */
+    display: flex;
+    align-items: center;
+}
+
+.item-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Ensure the image does not overflow */
+    height: auto;
+}

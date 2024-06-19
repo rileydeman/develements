@@ -1,3 +1,8 @@
+<?php
+/* @var mysqli $conn */
+include('../app/db/db-conn.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +15,14 @@
 </head>
 
 <body>
+<header>
+    <?php include('core/header.php');?>
+</header>
+
+<main>
     <div id="bigContainer">
-        <?php include "./placeholderArray.php";
+        <?php include
+        "./placeholderArray.php";
 
 
         foreach ($diensten as $dienstBox) {
@@ -31,6 +42,12 @@
         }
         ?>
     </div>
+</main>
+
+<header>
+    <?php include('core/footer.php');?>
+</header>
+
 </body>
 
 </html>

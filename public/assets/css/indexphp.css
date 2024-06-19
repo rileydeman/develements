@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e6f7e6;
-    color: #004d00;
+    color: #2be22b;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -68,7 +68,7 @@ h1 {
 }
 
 nav {
-    background-color: #004d00;
+    background-color: #ddfadd;
     padding: 10px 0;
 }
 
@@ -109,7 +109,7 @@ h2 {
 
 footer {
     background-color: #004d00; /* Dark green background */
-    color: white;
+    color: rgb(196, 27, 27);
     text-align: center;
     padding: 10px 0;
     width: 100%;

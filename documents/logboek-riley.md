@@ -7,6 +7,9 @@
 
 ## Week 3
 
+### 19/06/2024
+- Menu/Navigation ready for use => Code
+
 ### 17/06/2024
 - Een paar kaartjes toegevoegd aan mijn trello lijst => Trello
 - Juiste indeling voor CMS (Desktop) => Code

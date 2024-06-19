@@ -1,3 +1,8 @@
+<?php   
+    /* @var mysqli $conn */
+    include('app/db/db-conn.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +12,20 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="item item-1">
-            <p>Your text goes here</p>
-        </div>
-        <div class="item item-2">
-            <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
-        </div>
-    </div>
+
+<header>
+<!--    Getting the header document-->
+    <?php include('public/core/header.php');?>
+</header>
+
+<main>
+    <p>Main</p>
+</main>
+
+<footer>
+<!--    Getting the footer document-->
+    <?php include('public/core/footer.php'); ?>
+</footer>
+
 </body>
 </html>

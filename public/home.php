@@ -21,7 +21,7 @@
 
 <header>
 <!--    Getting the header document-->
-    <?php include "public/core/header.php" ?>
+    <?php include "develements/public/core/header.php" ?>
 </header>
 
 <main>

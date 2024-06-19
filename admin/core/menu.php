@@ -5,8 +5,18 @@
 </div>
 
 <nav>
-    <?php for($i = 0 ; $i < 100 ; $i++) { ?>
-        <p>Menu Item plain</p>
+    <?php
+    $nav = BASEURL_CMS . "assets/json/nav.json";
+    $nav = file_get_contents($nav);
+    $nav = json_decode($nav, true);
+
+    foreach ($nav as $item) { ?>
+        <a href="<?= BASEURL_CMS . $item["url"] ?>">
+            <div class="navItem">
+                <p><?= $item["name"] ?></p>
+            </div>
+        </a>
+
     <?php } ?>
 </nav>
 

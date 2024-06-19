@@ -20,6 +20,30 @@ aside {
                 background-color: var(--secondary-color);
             }
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navItem {
+            text-decoration: none;
+            border-radius: 1vh;
+            width: 100%;
+            padding: 1.5% 2%;
+            margin: 1% .5%;
+            /*border: 1px solid var(--secondary-color);*/
+
+            p {
+                color: #FFFFFF;
+                font-family: Helvetica;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            &:hover {
+                background-color: var(--secondary-color50);
+            }
+        }
     }
 
     #bottom {

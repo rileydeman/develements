@@ -31,13 +31,6 @@ body {
     color: #004d00; 
 }
 
-header {
-    background-color: #006600; 
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
 h1{
     margin-top: 50px;
     margin-left: 510px;
@@ -74,7 +67,7 @@ h1{
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
+    -webkit-animation-duration: 25s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
@@ -123,15 +116,5 @@ section {
 }
 
 h2 {
-    color: #006600; /* Darker green color for headings */
-}
-
-footer {
-    background-color: #004d00; /* Dark green background */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    color: #006600; 
 }

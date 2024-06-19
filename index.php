@@ -9,16 +9,18 @@
 </head>
 <body>
     <header>
-        <h1>Job for client will change in a sec</h1>
+        <nav class="navbar">
+            <div class="logo" src="public/assets/img/logo_compress.png"></div>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fi fi-rr-home"></i> Diensten</a></li>
+                <li><a href="#"><i class="fi fi-rr-info"></i> Over mij</a></li>
+                <li><a href="#"><i class="fi fi-rr-user"></i> Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fi fi-rr-menu-burger"></i>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
     <main>
         <section id="home">
             <h2>Home</h2>
@@ -37,21 +39,42 @@
                 </div>
             </div>
         </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>This section provides information about our history.</p>
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>Details about the services offered are listed here.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Contact information can be found in this section.</p>
+
+            <div class="about-section">
+        <h1>About Me</h1>
+        <p>Wat tekst over mij en wat ik doe.</p>
+        <p>Dit is hoppelijk resposive</p>
+        </div>
+
+        <div class="row">
+        <div class="column">
+            <div class="card">
+            <img src="/w3images/team1.jpg" alt="Hendrick.BV" style="width:100%">
+            <div class="container">
+                <h2>Hendrik Van Dijk</h2>
+                <p class="title">Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>HendrikVanDijk@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Our job will be finished soon. All rights reserved.</p>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Gegevens</h3>
+                <p>Adres: Lorem Ipsum</p>
+                <p>Postcode: 1234AB</p>
+                <p>Stad: Lorem Ipsum</p>
+                <p>Land: Lorem Ipsum</p>
+                <h2>+06 123456789</h2>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

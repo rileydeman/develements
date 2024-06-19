@@ -115,3 +115,24 @@
     background-color: black;
     height: 2px;
 }
+
+.contactButton {
+    background-color: #349773;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:10vw;
+    height:10vh;
+}
+
+#contactButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About | siteName</title>
 
@@ -28,7 +29,7 @@
     <main>
         <div id="bigContainer">
             <?php include "./placeholderArray.php";
-            
+
 
             foreach ($diensten as $dienstBox) {
                 ?>
@@ -63,6 +64,16 @@
                             dienst!" - Hendrik Hogendijk</p>
                     </div>
                     <hr class="divider">
+                    <div style="padding:10px;">
+                        <h1>Openingstijden: </h1><br>
+                        <p><strong>Maandag-Vrijdag:</strong> 07:00-17:00</p><br>
+                        <p><strong>Zaterdag:</strong> op afspraak</p><br>
+                        <p><strong>Zondag:</strong> gesloten</p><br>
+                    </div>
+                    <div id="contactButtonBox">
+                        <button class="contactButton" onclick="window.location.href = './contactForm.php';">Neem contact
+                            op!</button>
+                    </div>
                 </div>
                 <div id="contactContainer2">
 

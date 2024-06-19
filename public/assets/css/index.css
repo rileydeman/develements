@@ -1,56 +1,49 @@
 body {
-    overflow-x: hidden;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e6f7e6;
-    color: #2be22b;
+    color: #2b2b2b;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #a9b7a9;
+    background-color: #339933; /* Medium green */
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
 h1 {
-    margin-top: 50px;
-    margin-left: 510px;
+    margin-top: 20px;
     font-size: 60px;
     font-family: 'Karla', sans-serif;
     font-weight: lighter;
+    color: #004d00; /* Dark green */
 }
 
 .slider-frame {
     overflow: hidden;
     height: 800px;
-    width: 1200px;
-    margin-left: 360px;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
 @-webkit-keyframes slide_animation {
-    0% { left: 0px; }
-    10% { left: 0px; }
-    20% { left: 1200px; }
-    30% { left: 1200px; }
-    40% { left: 2400px; }
-    50% { left: 2400px; }
-    60% { left: 1200px; }
-    70% { left: 1200px; }
+    0%, 10%, 90%, 100% { left: 0px; }
+    20%, 30% { left: -1200px; }
+    40%, 50% { left: -2400px; }
+    60%, 70% { left: -1200px; }
     80% { left: 0px; }
-    90% { left: 0px; }
-    100% { left: 0px; }
 }
 
 .slide-images {
     width: 3600px;
     height: 800px;
-    margin: 0 0 0 -2400px;
+    margin: 0;
     position: relative;
     -webkit-animation-name: slide_animation;
     -webkit-animation-duration: 33s;
@@ -67,7 +60,7 @@ h1 {
 }
 
 nav {
-    background-color: #ddfadd;
+    background-color: #66cc66; /* Lighter green */
     padding: 10px 0;
 }
 
@@ -96,6 +89,7 @@ nav ul li a:hover {
 main {
     padding: 20px;
     flex: 1;
+    background-color: #ccffcc; /* Very light green */
 }
 
 section {
@@ -103,12 +97,12 @@ section {
 }
 
 h2 {
-    color: #006600; /* Darker green color for headings */
+    color: #004d00; /* Darker green color for headings */
 }
 
 footer {
     background-color: #004d00; /* Dark green background */
-    color: rgb(196, 27, 27);
+    color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;

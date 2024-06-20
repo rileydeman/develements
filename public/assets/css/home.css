@@ -6,6 +6,10 @@
     height: fixed;
 }
 
+main {
+    margin-top: 100px;
+}
+
 .item-1 {
     flex: 1; /* This makes sure the text takes available space */
     display: flex;

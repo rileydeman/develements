@@ -37,24 +37,8 @@
         <div class="item item-1">
             <p>Your text goes here</p>
         </div>
-<<<<<<< HEAD
-
-        <div class="row">
-        <div class="column">
-            <div class="card">
-            <img src="nothing" alt="Hendrick.BV" style="width:100%">
-            <div class="container">
-                <h2>Hendrik Van Dijk</h2>
-                <p class="title">Founder</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>HendrikVanDijk@example.com</p>
-                <p><button class="button">Contact</button></p>
-            </div>
-            </div>
-=======
         <div class="item item-2">
             <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
->>>>>>> c00427831ab2905fc43604dccc9d588be8886963
         </div>
     </div>
 </body>

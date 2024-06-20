@@ -9,7 +9,9 @@
 
 ### 20/06/2024
 - CMS header (desktop) af gemaakt => Code
-- CMS services file creates => Code
+- CMS services file aangemaakt => Code
+- Database aangemaakt + eerste backup opgeslagen => phpmyadmin
+- CMS home pictures file aangemaakt => Code
 
 ### 19/06/2024
 - Menu/Navigation ready for use => Code

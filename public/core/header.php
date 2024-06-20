@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" style="z-index: 500;">
     <div class="logo">Hier komt logo</div>
     <ul class="nav-links">
         <li><a href="#"><i class="fi fi-rr-home"></i> Diensten</a></li>

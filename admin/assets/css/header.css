@@ -13,19 +13,48 @@ header {
         display: flex;
 
         #searchBars {
-            width: 50%;
+            width: 65%;
             height: 100%;
             display: flex;
             justify-content: flex-start;
             align-items: center;
+
+            form {
+                padding: .5% 1.5%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                input {
+                    outline: none;
+                    background-color: var(--secondary-color);
+                    border: none;
+                    padding: 3% 3.5%;
+                    color: #000000;
+                    border-radius: .75vh;
+
+                    &::placeholder {
+                        font-family: lato;
+                        color: #262626;
+                    }
+                }
+            }
         }
 
         #accountName {
-            width: 50%;
+            width: 35%;
             height: 100%;
             display: flex;
             justify-content: flex-end;
             align-items: center;
+
+            #accountName {
+                font-family: Helvetica;
+                font-weight: bold;
+                font-size: 1.25rem;
+                width: 100%;
+            }
         }
 
         #menuIcon {

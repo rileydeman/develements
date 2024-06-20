@@ -12,10 +12,6 @@ body {
     background-color: var(--primary-color);
 }
 
-nav {
-    background-color: var(--secondary-color);
-}
-
 /* Basic reset */
 * {
     margin: 0;

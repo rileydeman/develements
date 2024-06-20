@@ -1,13 +1,13 @@
 <div id="container">
     <div id="searchBars">
         <form action="" method="get">
-            <input type="text" name="" id="" placeholder="Zoek Dienst...">
+            <input type="text" name="q" id="" placeholder="Zoek Dienst...">
         </form>
         <form action="" method="get">
-            <input type="text" name="" id="" placeholder="Zoek Offerte Aanvraag...">
+            <input type="text" name="q" id="" placeholder="Zoek Offerte Aanvraag...">
         </form>
         <form action="" method="get">
-            <input type="text" name="" id="" placeholder="Zoek Recentie...">
+            <input type="text" name="q" id="" placeholder="Zoek Recentie...">
         </form>
     </div>
     <div id="accountName">

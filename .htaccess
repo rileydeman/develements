@@ -6,5 +6,6 @@ RewriteRule ^(.*)$ public/$1.php
 RewriteRule ^about$ public/about.php
 
 RewriteRule ^admin$ admin/index.php
+RewriteRule ^admin/services$ admin/services.php
 
 ErrorDocument 404 /public/core/errors/404.php

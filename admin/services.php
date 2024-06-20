@@ -10,7 +10,7 @@ include_once("../app/db/db-conn.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOME | CMS Hendrik</title>
+    <title>Services | CMS Hendrik</title>
 
     <link rel="icon" href="">
 
@@ -27,26 +27,26 @@ include_once("../app/db/db-conn.php");
 
 <body>
 
-    <header>
-        <!--    Getting the header document-->
-        <?php include_once("core/header.php"); ?>
-    </header>
+<header>
+    <!--    Getting the header document-->
+    <?php include_once("core/header.php"); ?>
+</header>
 
-    <aside>
-        <?php include_once("core/menu.php") ?>
-    </aside>
+<aside>
+    <?php include_once("core/menu.php") ?>
+</aside>
 
-    <main>
-        <div id="content">
-            <h1>Title</h1>
-        </div>
+<main>
+    <div id="content">
+        <h1>Services</h1>
+    </div>
 
 
-        <footer>
-            <!--    Getting the footer document-->
-            <?php include_once("core/footer.php") ?>
-        </footer>
-    </main>
+    <footer>
+        <!--    Getting the footer document-->
+        <?php include_once("core/footer.php") ?>
+    </footer>
+</main>
 
 </body>
 

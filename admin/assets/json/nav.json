@@ -1,18 +1,18 @@
 [
   {
     "name": "Home Foto's",
-    "url": "home-pictures"
+    "url": "home-pictures.php"
   },
   {
     "name": "Diensten",
-    "url": "services"
+    "url": "services.php"
   },
   {
     "name": "Offerte Aanvragen",
-    "url": "quotation-requests"
+    "url": "quotation-requests.php"
   },
   {
     "name": "Recenties",
-    "url": "reviews"
+    "url": "reviews.php"
   }
 ]

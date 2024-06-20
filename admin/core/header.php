@@ -1,6 +1,6 @@
 <div id="container">
     <div id="searchBars">
-        <form action="" method="get">
+        <form action="<?= BASEURL_CMS ?>services.php" method="get">
             <input type="text" name="q" id="" placeholder="Zoek Dienst...">
         </form>
         <form action="" method="get">

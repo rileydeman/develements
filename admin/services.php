@@ -10,7 +10,7 @@ include_once("../app/db/db-conn.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Services | CMS Hendrik</title>
+    <title>Diensten | CMS Hendrik</title>
 
     <link rel="icon" href="">
 
@@ -38,7 +38,8 @@ include_once("../app/db/db-conn.php");
 
 <main>
     <div id="content">
-        <h1>Services</h1>
+        <h1>Diensten</h1>
+        <p>Op deze pagina kunt u al uw Diensten beheren, denk daarbij aan toevoegen, bijwerken en updaten.</p>
     </div>
 
 

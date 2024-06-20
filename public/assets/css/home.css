@@ -23,12 +23,13 @@ img {
     max-width: 100%; /* Ensure the image does not overflow */
     height: auto;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e6f7e6; 
-    color: #004d00; 
+    color: #0e5b0e; 
 }
 
 h1{

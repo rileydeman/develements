@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="/public/assets/css/footer.css">
     <link rel="stylesheet" href="/public/assets/css/home.css">
 
-<!--    Linking of the javascript files, defer = reading/link the file at last-->
     <script defer src="/public/assets/js/app.js"></script>
+    <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
 <body>
 
@@ -32,18 +32,17 @@
 
 <main>
 <section id="home">
-<body>
     <div class="container">
         <div class="item item-1">
-            <p>Your text goes here</p>
+            <h1>Wij maken uw droomtuin realiteit.</h1><br>
+            <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient.</h3>
         </div>
-        <div class="item item-2">
+        <div class="item item-2 slideshow">
             <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
+            <img src="public/assets/img/Tuin1.webp" alt="Description of image">
+            <img src="public/assets/img/home-design.jpg" alt="Description of image">
         </div>
     </div>
-</body>
-</html>
-
 </section>
 </main>
 

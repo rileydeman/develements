@@ -32,28 +32,12 @@
 
 <main>
 <section id="home">
-            <h2>Home</h2>
-            <h1>Auto - Image Slider HTML and CSS</h1>
-            <div class="slider-frame">
-                <div class="slide-images">
-                        <div class="img-container">
-                            <img src="public/assets/img/Tuin1.webp">
-                        </div>
-                        <div class="img-container">
-                            <img src="public/assets/img/Tuin2.jpeg">
-                        </div>
-                        <div class="img-container">
-                            <img src="public/assets/img/Tuin3.jpeg">
-                        </div>
-                </div>
-            </div>
-        </section>
-
-            <div class="about-section">
-        <h1>About Me</h1>
-        <p>Wat tekst over mij en wat ik doe.</p>
-        <p>Dit is hoppelijk resposive</p>
+<body>
+    <div class="container">
+        <div class="item item-1">
+            <p>Your text goes here</p>
         </div>
+<<<<<<< HEAD
 
         <div class="row">
         <div class="column">
@@ -67,8 +51,17 @@
                 <p><button class="button">Contact</button></p>
             </div>
             </div>
+=======
+        <div class="item item-2">
+            <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
+>>>>>>> c00427831ab2905fc43604dccc9d588be8886963
         </div>
-        </section>
+    </div>
+</body>
+</html>
+
+
+</section>
 </main>
 
 <footer>

@@ -38,7 +38,7 @@
                         <h2><?= $dienstBox["dienst"]; ?></h2> </br>
                         <p><?= $dienstBox["tekst"]; ?></p> </br>
                         <div class="buttonBox">
-                            <button class="dienstButton">Meer info</button>
+                            <button class="dienstButton">Mijn projecten</button>
                         </div>
                     </div>
                     <div class="imageContainer" style='background-image: url("http://localhost<?= $dienstBox["img"] ?>");'>
@@ -71,7 +71,7 @@
                         <p><strong>Zondag:</strong> gesloten</p><br>
                     </div>
                     <div id="contactButtonBox">
-                        <button class="contactButton" onclick="window.location.href = './contactForm.php';">Neem contact
+                        <button class="contactButton" onclick="window.location.href = './contact';">Neem contact
                             op!</button>
                     </div>
                 </div>
@@ -80,14 +80,25 @@
                         <small>telefoonnummer: </small>
                         <h1>+06 123456789</h1><br>
                         <hr class="divider">
-                        <a target=”_blank”
-                            href="https://www.google.com/maps/place/Hoefstraat+42,+4265+HV+Genderen/@51.734793,5.0837797,17.91z/data=!4m6!3m5!1s0x47c692058071c215:0x37e244aea3c8904b!8m2!3d51.7347078!4d5.0836166!16s%2Fg%2F11c5lstlvl?entry=ttu">
-                            <div id="mapsImage"
-                                style='background-image: url("./public/assets/img/maps.png");margin: 50% auto 0 auto;'>
-                            </div>
-                        </a>
+                        <div id="imageDiv">
+                            <a target="_blank"
+                                href="https://www.google.com/maps/place/Hoefstraat+42,+4265+HV+Genderen/@51.734793,5.0837797,17.91z/data=!4m6!3m5!1s0x47c692058071c215:0x37e244aea3c8904b!8m2!3d51.7347078!4d5.0836166!16s%2Fg%2F11c5lstlvl?entry=ttu">
+                                <div id="mapsImage" style='background-image: url("./public/assets/img/maps.png");'>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="contact-info">
+                            <small>Hendrik Hogendijk Hoveniers</small><br>
+                            <small>Hoefstraat 42</small><br>
+                            <small>7143HH Huis ter Heide</small><br>
+                            <small>hendrikhogendijkhoveniers@gmail.com</small><br>
+                        </div>
+                        <hr class="divider">
+                        <div id="logoBox" style='background-image: url("./public/assets/img/logo_name.png");'>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </main>

@@ -4,6 +4,7 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 
 RewriteRule ^(.*)$ public/$1.php
 RewriteRule ^about$ public/about.php
+RewriteRule ^contact$ public/contactForm.php
 
 RewriteRule ^admin$ admin/index.php
 

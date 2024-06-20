@@ -84,8 +84,8 @@
 
 #contactContainer2 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start; 
     margin-top: 10%;
     background-color: var(--quaternary-color);
     width: 20vw;
@@ -109,7 +109,7 @@
 
 .divider {
     width: 90%; 
-    margin: 4% auto 0 auto;
+    margin: 4% auto 0 auto; 
     border: none;
     border-top: 2px solid black;
     background-color: black;
@@ -139,14 +139,37 @@
 }
 
 #mapsImage {
-    width: auto;
-    height: 100%;
-    background-size: contain;
+    width: 90%;
+    height: 20vh; 
+    background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #91d6b2;
+    margin: 20% auto 0;
+    padding: 0 !important;
+    margin-bottom: 10px; 
 }
 
+
+
 #extraContainer2 {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-top: 10px; 
+}
+
+#imageDiv {
+    display:inline-block;
+}
+
+#logoBox {
+    width:50%;
+    height:15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }

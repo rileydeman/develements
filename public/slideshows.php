@@ -21,6 +21,19 @@
     <script defer src="/public/assets/js/slideshow2.js"></script>
 </head>
 
+<!-- Feedback van Rick
+
+- Maak er echt een slider van (dus niet alleen dat ie van plaatje naar plaatje wisselt)
+- Zorg ervoor dat ook als je op een van de pijltjes klikt er een animatie komt waar de image weg slide en een nieuwe tevoorschijn komt.
+- Verander de set pixels naar procenten of vw (viewwidth) of vh (viewheight), want op mijn laptop ziet het er allemaal niet heel goed uitgelijnd uit
+
+-En misschien ook cool als je onderin een soort van preview maakt met 3 plaatjes, de middelste is het plaatje wat al groot in beeld staat, degene
+ daarlinks is degene die daarvoor was gedisplayed en degene daarrechts is de eerstvolgende die gedisplayd kan worden
+
+ Voor de rest ziet het er allemaal best prima uit :)
+-->
+
+
 <body>
 
     <header>

@@ -27,27 +27,27 @@ include_once("../app/db/db-conn.php");
 
 <body>
 
-<header>
-    <!--    Getting the header document-->
-    <?php include_once("core/header.php"); ?>
-</header>
+    <header>
+        <!--    Getting the header document-->
+        <?php include_once("core/header.php"); ?>
+    </header>
 
-<aside>
-    <?php include_once("core/menu.php") ?>
-</aside>
+    <aside>
+        <?php include_once("core/menu.php") ?>
+    </aside>
 
-<main>
-    <div id="content">
-        <h1>Diensten</h1>
-        <p>Op deze pagina kunt u al uw Diensten beheren, denk daarbij aan toevoegen, bijwerken en updaten.</p>
-    </div>
+    <main>
+        <div id="content">
+            <h1>Diensten</h1>
+            <p>Op deze pagina kunt u al uw Diensten beheren, denk daarbij aan toevoegen, bijwerken en updaten.</p>
+        </div>
 
 
-    <footer>
-        <!--    Getting the footer document-->
-        <?php include_once("core/footer.php") ?>
-    </footer>
-</main>
+        <footer>
+            <!--    Getting the footer document-->
+            <?php include_once("core/footer.php") ?>
+        </footer>
+    </main>
 
 </body>
 

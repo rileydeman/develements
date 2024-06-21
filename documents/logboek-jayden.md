@@ -90,23 +90,37 @@ Onze prototypes presenteren.
 
 Nieuwe taakindeling maken. 
 
+
 Taken verricht 17/06/24:
+
 Iedereen heeft een nieuwe taak gekregen voor programmeren
+
 Werken aan header & footer
 
-Taken verricht 18/06/24
+
+Taken verricht 18/06/24:
+
 Vrij
 
+
 Taken verricht 19/06/24:
+
 Verder werken header & footer
+
 Homepagina maken
+
 Merge conflicts oplossen
+
 
 Taken verricht 20/06/24:
+
 Homepagina maken
+
 Merge conflicts oplossen
 
-Taken verricht 21/06/24
+
+Taken verricht 21/06/24:
+
 Afwezig door ziekte, kijken of ik thuis wat kan regelen
 
  

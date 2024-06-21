@@ -34,31 +34,13 @@
         </div>
         <form id="contactForm" action="process_contact.php" method="POST">
             <label for="name">Naam:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" autofocus required><br><br>
 
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="phone">Telefoonnummer:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
-
             <label for="message">Bericht:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-            <small>Ik wil:</small>
-            <div class="radio-group">
-                <input type="radio" id="opt1" name="choice" value="opt1">
-                <label for="opt1">Kennismaken</label>
-            </div>
-            <div class="radio-group">
-                <input type="radio" id="opt2" name="choice" value="opt2">
-                <label for="opt2">Offerte aanvragen</label>
-            </div>
-            <div class="radio-group">
-                <input type="radio" id="opt3" name="choice" value="opt3">
-                <label for="opt3">Overig</label>
-            </div>
-            <br>
 
             <input type="submit" value="Versturen">
         </form>

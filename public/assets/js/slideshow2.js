@@ -1,32 +1,29 @@
 document.addEventListener('DOMContentLoaded', function() {
     let slideIndex = 0;
-    const slides = document.querySelectorAll('.slide');
-    const totalSlides = slides.length;
+    const slides = document.querySelector('.slides');
+    const totalSlides = slides.children.length;
 
     function showSlides() {
-        for (let i = 0; i < totalSlides; i++) {
-            slides[i].style.display = 'none';
-        }
         slideIndex++;
-        if (slideIndex > totalSlides) {
-            slideIndex = 1;
+        if (slideIndex >= totalSlides) {
+            slideIndex = 0;
         }
-        slides[slideIndex - 1].style.display = 'block';
-        setTimeout(showSlides, 5000);
+        updateSlidePosition();
+        setTimeout(showSlides, 5000); 
     }
 
     function changeSlide(n) {
         slideIndex += n;
-        if (slideIndex > totalSlides) {
-            slideIndex = 1;
+        if (slideIndex >= totalSlides) {
+            slideIndex = 0;
+        } else if (slideIndex < 0) {
+            slideIndex = totalSlides - 1;
         }
-        if (slideIndex < 1) {
-            slideIndex = totalSlides;
-        }
-        for (let i = 0; i < totalSlides; i++) {
-            slides[i].style.display = 'none';
-        }
-        slides[slideIndex - 1].style.display = 'block';
+        updateSlidePosition();
+    }
+
+    function updateSlidePosition() {
+        slides.style.transform = `translateX(-${slideIndex * 100}%)`;
     }
 
     document.querySelector('.next').addEventListener('click', () => {

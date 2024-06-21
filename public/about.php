@@ -39,9 +39,11 @@
                     <div class="textBox">
                         <h2><?= $dienstBox["dienst"]; ?></h2> </br>
                         <p><?= $dienstBox["tekst"]; ?></p> </br>
-                        <div class="buttonBox">
-                            <button class="dienstButton">Mijn projecten</button>
-                        </div>
+                        <a href='./public/slideshows.php?id=<?= $dienstBox["id"]; ?>'>
+                            <div class="buttonBox">
+                                <button class="dienstButton">Mijn projecten</button>
+                            </div>
+                        </a>
                     </div>
                     <div class="imageContainer" style='background-image: url("http://localhost<?= $dienstBox["img"] ?>");'>
                     </div>

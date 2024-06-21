@@ -5,16 +5,18 @@ body {
     padding: 0;
 }
 
-header#formHeader {
+#formHeader {
     background-color: #333;
     color: white;
     padding: 1em;
     text-align: center;
+    margin-bottom: 20px;
+    /* Add margin to ensure separation */
 }
 
 main {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 10% auto 0 auto;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -60,4 +62,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-

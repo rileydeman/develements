@@ -19,6 +19,7 @@
 
     <!-- Linking of the JavaScript files, defer = reading/link the file at last -->
     <script defer src="/public/assets/js/app.js"></script>
+    <script defer src="/public/assets/js/contactForm.js"></script>
 </head>
 
 <body>
@@ -29,9 +30,9 @@
 
     <main>
         <div id="formHeader">
-            <h1>Contact Us</h1>
+            <h1>Contactformulier</h1>
         </div>
-        <form action="process_contact.php" method="POST">
+        <form id="contactForm" action="process_contact.php" method="POST">
             <label for="name">Naam:</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
@@ -44,20 +45,26 @@
             <label for="message">Bericht:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
-            <small>Ik wil:</small><br><br><br>
-            <input type="radio" id="opt1" name="choice" value="opt1">
-            <label for="opt1">kennismaken</label><br>
-            <input type="radio" id="opt2" name="choice" value="opt2">
-            <label for="opt2">offerte aanvragen</label><br>
-            <input type="radio" id="opt3" name="choice" value="opt3">
-            <label for="opt3">overig</label><br><br>
+            <small>Ik wil:</small>
+            <div class="radio-group">
+                <input type="radio" id="opt1" name="choice" value="opt1">
+                <label for="opt1">Kennismaken</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="opt2" name="choice" value="opt2">
+                <label for="opt2">Offerte aanvragen</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="opt3" name="choice" value="opt3">
+                <label for="opt3">Overig</label>
+            </div>
+            <br>
 
             <input type="submit" value="Versturen">
         </form>
     </main>
 
     <footer>
-        <!-- Getting the footer document -->
         <?php include "core/footer.php"; ?>
     </footer>
 

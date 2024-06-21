@@ -61,11 +61,13 @@ Werken aan webdesign prototype 1.
 
 Onderzoeken verrichten – Concurrentie en responsiveness. 
 
+
 Taken verricht 11/06/24: 
 
 Onderzoeken afgemaakt en gedocumenteerd. 
 
 Werken aan prototype 1 PC design. 
+
 
 Taken verricht 12/06/24: 
 
@@ -79,6 +81,7 @@ Afronden PC design prototype 1.
 
 Beginnen aan mobile design prototype 1. 
 
+
 Taken verricht 14/06/24: 
 
 Afronden mobile design prototype 1. 
@@ -86,6 +89,25 @@ Afronden mobile design prototype 1.
 Onze prototypes presenteren. 
 
 Nieuwe taakindeling maken. 
+
+Taken verricht 17/06/24:
+Iedereen heeft een nieuwe taak gekregen voor programmeren
+Werken aan header & footer
+
+Taken verricht 18/06/24
+Vrij
+
+Taken verricht 19/06/24:
+Verder werken header & footer
+Homepagina maken
+Merge conflicts oplossen
+
+Taken verricht 20/06/24:
+Homepagina maken
+Merge conflicts oplossen
+
+Taken verricht 21/06/24
+Afwezig door ziekte, kijken of ik thuis wat kan regelen
 
  
 

@@ -36,7 +36,6 @@
     background: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
-    padding: 10px;
     cursor: pointer;
     font-size: 20px; 
 }
@@ -47,4 +46,16 @@
 
 main {
     margin-top: 100px;
+}
+
+body {
+    padding: 0;
+}
+
+.next {
+    right: 23.75vw;
+}
+
+.prev {
+    left: 23.75vw;
 }

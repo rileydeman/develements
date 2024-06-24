@@ -62,7 +62,7 @@
 }
 
 .thumbnail {
-    width: 10%;
+    width: 8%;
     height: 5%;
     margin: 0 5px;
     cursor: pointer;
@@ -88,6 +88,6 @@ body {
 }
 
 .thumbnail#mainThumb {
-    width: 15%;
+    width: 12%;
     margin-top: -20px; /* Adjusted to move the thumbnail upwards */
 }

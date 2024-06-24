@@ -16,6 +16,13 @@
     <script defer src="/public/assets/js/slideshow2.js"></script>
 </head>
 <body>
+<?php include "./placeholderArray.php";
+        $id = $_GET["id"];
+        $length = count($diensten);
+
+        foreach($diensten as $dienst) {
+            if ($dienst["id"] == $id) {
+                ?>
     <header>
         <?php include "core/header.php"; ?>
     </header>
@@ -23,9 +30,9 @@
     <main>
         <div class="slideshow-container">
             <div class="slides">
-                <div class="slide"><img src="/public/assets/img/tuin1.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="/public/assets/img/tuin2.jpg" alt="Slide 2"></div>
-                <div class="slide"><img src="/public/assets/img/tuin3.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="<?=$dienst["cycleImage1"];?>" alt="Slide 1"></div>
+                <div class="slide"><img src="<?=$dienst["cycleImage2"];?>" alt="Slide 2"></div>
+                <div class="slide"><img src="<?=$dienst["cycleImage3"];?>" alt="Slide 3"></div>
             </div>
         </div>
         <div class="navigation">
@@ -33,20 +40,13 @@
             <button class="next">&#10095;</button>
         </div>
         <div class="thumbnails">
-            <img src="/public/assets/img/tuin1.jpg" alt="Thumb 1" class="thumbnail" data-index="0">
-            <img src="/public/assets/img/tuin2.jpg" alt="Thumb 2" class="thumbnail" data-index="1">
-            <img src="/public/assets/img/tuin3.jpg" alt="Thumb 3" class="thumbnail" data-index="2">
-        </div>
-        <?php include "./placeholderArray.php";
-        $id = $_GET["id"];
-        $length = count($diensten);
-
-        foreach($diensten as $dienst) {
-            if ($dienst["id"] == $id) {
-                print_r($dienst["tekst"]);
-            }
-        }
-        ?>
+            <img src="<?=$dienst["cycleImage1"];?>" alt="Thumb 1" class="thumbnail" data-index="0" id="leftThumb">
+            <img src="<?=$dienst["cycleImage2"];?>" alt="Thumb 2" class="thumbnail" data-index="1" id="mainThumb">
+            <img src="<?=$dienst["cycleImage3"];?>" alt="Thumb 3" class="thumbnail" data-index="2" id="rightThumb">
+        </div> <?php
+    }
+}
+?>
     </main>
 
     <footer>

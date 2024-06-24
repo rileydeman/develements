@@ -58,12 +58,12 @@
 .thumbnails {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px; /* Increased to make room for the raised thumbnail */
 }
 
 .thumbnail {
-    width: 100px;
-    height: 75px;
+    width: 10%;
+    height: 5%;
     margin: 0 5px;
     cursor: pointer;
     opacity: 0.6;
@@ -85,4 +85,9 @@ main {
 
 body {
     padding: 0;
+}
+
+.thumbnail#mainThumb {
+    width: 15%;
+    margin-top: -20px; /* Adjusted to move the thumbnail upwards */
 }

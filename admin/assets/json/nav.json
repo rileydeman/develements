@@ -8,8 +8,8 @@
     "url": "services.php"
   },
   {
-    "name": "Offerte Aanvragen",
-    "url": "quotation-requests.php"
+    "name": "Contact Inbox",
+    "url": "inbox.php"
   },
   {
     "name": "Recenties",

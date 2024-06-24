@@ -54,6 +54,7 @@ header {
                 font-weight: bold;
                 font-size: 1.25rem;
                 width: 100%;
+                text-align: right;
             }
         }
 
@@ -73,6 +74,7 @@ header {
 
     @media only screen and (max-width: 1279px) {
         #container {
+            padding: 1% 1.5%;
 
             #searchBars {
                 display: none;
@@ -81,6 +83,10 @@ header {
             #accountName {
                 width: 75%;
                 justify-content: flex-start;
+
+                #accountNameText {
+                    text-align: left;
+                }
             }
 
             #menuIcon {

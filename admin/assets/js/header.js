@@ -14,3 +14,14 @@ let menu = document.querySelector("aside");
 menuIcon.addEventListener("click", (e) => {
     menu.style.right = 0;
 });
+
+let menuCloseIcon = document.getElementById("exitIcon");
+
+menuCloseIcon.addEventListener("click", (e) => {
+    if (window.innerWidth < 768) {
+        menu.style.right = "-80%";
+    } else if (window.innerWidth > 1279) {
+        menu.style.right = "-50%";
+    }
+
+})

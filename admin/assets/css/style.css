@@ -72,6 +72,11 @@ aside {
         width: 50%;
         height: 100%;
     }
+
+    @media only screen and (max-width: 768px) {
+        width: 80%;
+        right: -80%;
+    }
 }
 
 main {
@@ -107,6 +112,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     a {
         text-decoration: none;

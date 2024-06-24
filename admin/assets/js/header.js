@@ -7,3 +7,10 @@ for (let i = 0; i < forms.length; i++) {
         }
     })
 }
+
+let menuIcon = document.getElementById("menuIconImg");
+let menu = document.querySelector("aside");
+
+menuIcon.addEventListener("click", (e) => {
+    menu.style.right = 0;
+});

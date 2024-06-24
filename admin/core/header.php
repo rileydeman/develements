@@ -11,9 +11,9 @@
         </form>
     </div>
     <div id="accountName">
-        <p id="accountName">Account Naam</p>
+        <p id="accountNameText">Account Naam</p>
     </div>
     <div id="menuIcon">
-        <img src="<?= BASEURL_CMS ?>assets/img/icons/bars-staggered.png" alt="">
+        <img id="menuIconImg" src="<?= BASEURL_CMS ?>assets/img/icons/bars-staggered.png" alt="">
     </div>
 </div>

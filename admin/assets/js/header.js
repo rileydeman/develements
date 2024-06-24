@@ -36,11 +36,13 @@ setInterval(setWidth, 1)
 function setWidth() {
     windowWidth = window.innerWidth;
 
-    if (!menuOpen) {
-        if (windowWidth < 768) {
-            menu.style.right = "-80%";
-        } else if (windowWidth < 1279) {
-            menu.style.right = "-50%";
+    if (windowWidth < 1279) {
+        if (!menuOpen) {
+            if (windowWidth < 768) {
+                menu.style.right = "-80%";
+            } else if (windowWidth < 1279) {
+                menu.style.right = "-50%";
+            }
         }
     }
 }

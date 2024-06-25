@@ -189,13 +189,41 @@ section {
 h2 {
     color: #ffffff; 
 }
-
-#over-mij {
+ #over-mij {
+    border-radius: 15px;
+    width: 75vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding: 20px 10px; /* top/bottom: 20px, left/right: 10px */
+
     background-color: lightgrey;
-    border-radius: 0px;
     max-width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#image-div {
+    border-radius: 7.5px;
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#text-div {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#about-text {
+    color: var(--tertiary-color);
+    font-weight: bold;
+    margin-left: 2vw;
+    font-size: 35px;
 }

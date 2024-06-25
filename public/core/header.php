@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar" style="z-index: 500;">
         <div class="logo">
-        <img src="public/assets/img/logo_full.png" alt="Description of image">
+        <img src="./public/assets/img/logo_full.png" alt="Description of image">
         </div>
         <ul class="nav-links">
             <li><a href="/"><i class="fi fi-rr-home"></i> Diensten</a></li>

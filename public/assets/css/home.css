@@ -1,3 +1,46 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    color: #195019; 
+}
+
+h1 {
+    margin-left: 510px;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -11,7 +54,6 @@ main {
     margin-top: 50px;
 }
 
-/* Testimonial Section Styles */
 #recensies {
     padding: 40px;
     background-color: #f9f9f9;
@@ -65,7 +107,6 @@ main {
     background: #195019;
 }
 
-
 .item-1 {
     flex: 1;
     display: flex;
@@ -112,27 +153,7 @@ main {
     align-items: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff; 
-    color: #195019; 
-}
-
-h1{
-    margin-left: 510px;
-    font-size: 60px;
-    font-family: 'Karla', sans-serif;
-    font-weight: lighter;
-}
-
-.slider-frame{
+.slider-frame {
     overflow: hidden;
     height: 800px;
     width: 1200px;
@@ -140,18 +161,18 @@ h1{
     margin-top: 20px;
 }
 
-@-webkit-keyframes slide_animation{
-    0% {left: 0px;}
-    10% {left: 0px;}
-    20% {left: 1200px;}
-    30% {left: 1200px;}
-    40% {left: 2400px;}
-    50% {left: 2400px;}
-    60% {left: 1200px;}
-    70% {left: 1200px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
+@-webkit-keyframes slide_animation {
+    0% { left: 0px; }
+    10% { left: 0px; }
+    20% { left: 1200px; }
+    30% { left: 1200px; }
+    40% { left: 2400px; }
+    50% { left: 2400px; }
+    60% { left: 1200px; }
+    70% { left: 1200px; }
+    80% { left: 0px; }
+    90% { left: 0px; }
+    100% { left: 0px; }
 }
 
 .slide-images {
@@ -172,8 +193,6 @@ h1{
     position: relative;
     float: left;
 }
-
-/* info rectangle */
 
 #short-info {
     display: flex;
@@ -210,30 +229,6 @@ h1{
     color: #333;
 }
 
-/* Footer Styles */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-
 section {
     margin: 0 auto 20px auto;
 }
@@ -242,12 +237,11 @@ h2 {
     color: #ffffff; 
 }
 
- #over-mij {
+#over-mij {
     border-radius: 15px;
     width: 75vw;
     display: flex;
     padding: 20px 10px; /* top/bottom: 20px, left/right: 10px */
-
     background-color: #f0f0f0;
     max-width: 100%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -279,4 +273,81 @@ h2 {
     font-weight: bold;
     margin-left: 2vw;
     font-size: 35px;
+}
+
+/* New CSS styles */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text-content, .image-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.text-content h3 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content h1 {
+        font-size: 28px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+    }
+
+    .text-content h3 {
+        font-size: 20px;
+    }
 }

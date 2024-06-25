@@ -91,9 +91,37 @@ include ('app/db/db-conn.php');
             </div>
         </section>
 
-<section id="recensies">
-
+        <section id="recensies">
+    <h2>Testimonials</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="testimonial">
+                    <p>"This is the first testimonial. Excellent service!"</p>
+                    <h3>- John Doe</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonial">
+                    <p>"This is the second testimonial. Highly recommend!"</p>
+                    <h3>- Jane Smith</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonial">
+                    <p>"This is the third testimonial. Great experience!"</p>
+                    <h3>- Bob Johnson</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
 </section>
+
 
 </main>
 

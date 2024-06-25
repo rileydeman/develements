@@ -101,7 +101,7 @@ h1{
 
 .slide-images {
     width: 3600;
-    height: 800px;
+    height: 200px;
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation-name: slide_animation;
@@ -125,7 +125,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: #f0f0f0;
     border-radius: 0px;
     max-width: 100%;
 }
@@ -154,9 +154,6 @@ h1{
     font-size: 1rem;
     color: #333;
 }
-
-
-
 
 /* Footer Styles */
 nav ul {
@@ -189,13 +186,14 @@ section {
 h2 {
     color: #ffffff; 
 }
+
  #over-mij {
     border-radius: 15px;
     width: 75vw;
     display: flex;
     padding: 20px 10px; /* top/bottom: 20px, left/right: 10px */
 
-    background-color: lightgrey;
+    background-color: #f0f0f0;
     max-width: 100%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }

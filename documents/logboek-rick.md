@@ -18,3 +18,7 @@ Ik heb vandaag hetgene wat ik gisteren heb gemaakt bijgewerkt en verbetert, en h
 Vandaag is dat bijna helemaal af, ik ga morgen nog een klein beetje fixen en dan ga ik aan het contactformulier beginnen.
 
 Vandaag heb ik dat kleine beetje gefixt, heb ik eindelijk de footer en header en ben ik bezig geweest met het contactformulier, die ik bijna af heb. Ik loop best goed op schema!
+
+Het contactformulier is af, inclusief de validatiechecks en het versturen werkt ook. Het moet alleen nog maar gekoppeld worden aan de database en dan is ie zover. Ik heb Zaki ook vooruit geholpen met het bedenken wat hij kan doen voor ons, en hij werkt nu aan de slideshows. Hij was nog niet helemaal responsive, maar ik heb hem wat verder mee geholpen en responsiver gemaakt
+
+Vandaag is het 24 juni 2024, over 5 dagen moeten we het presenteren aan de klan en Riley zegt dat de crud zeker niet klaar gaat zijn. Ik vroeg hem waarom en vroeg of hij kon laten zien wat hij al had, en was bezig met de design van de crud pagina, maar nog zonder de logica erachter. Ik heb nu aan hem gevraagd of hij gewoon bezig kon gaan met de logica en minder zou kunnen focusen op design en responsive maken.

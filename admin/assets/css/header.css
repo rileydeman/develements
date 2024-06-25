@@ -49,25 +49,54 @@ header {
             justify-content: flex-end;
             align-items: center;
 
-            #accountName {
+            #accountNameText {
                 font-family: Helvetica;
                 font-weight: bold;
                 font-size: 1.25rem;
                 width: 100%;
+                text-align: right;
             }
         }
 
         #menuIcon {
-            aspect-ratio: 1/1;
             height: 100%;
-            display: flex;
-            justify-content: center;
+            width: 25%;
+            justify-content: flex-end;
             align-items: center;
             display: none;
 
             img {
                 aspect-ratio: 1/1;
-                height: 90%;
+                height: 85%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1279px) {
+        #container {
+            padding: 1% 1.5%;
+
+            #searchBars {
+                display: none;
+            }
+
+            #accountName {
+                width: 75%;
+                justify-content: flex-start;
+
+                #accountNameText {
+                    text-align: left;
+                }
+            }
+
+            #menuIcon {
+                display: flex;
+                
+                img {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }

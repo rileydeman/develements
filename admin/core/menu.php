@@ -2,6 +2,8 @@
     <a href="/admin">
         <img src="<?= BASEURL_CMS ?>assets/img/logo_full.png" alt="">
     </a>
+
+    <img id="exitIcon" src="<?= BASEURL_CMS ?>assets/img/icons/cross.png" alt="">
 </div>
 
 <nav>

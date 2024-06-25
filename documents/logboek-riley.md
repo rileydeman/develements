@@ -2,7 +2,8 @@
 
 ## Week 4
 
-### #soon
+### 24/06/2024
+- CMS core responsive gemaakt => Code
 
 
 ## Week 3

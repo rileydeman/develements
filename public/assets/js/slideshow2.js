@@ -14,18 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const totalSlides = slides.children.length;
     const thumbnails = document.querySelectorAll('.thumbnail');
 
-    // Functie om de slides automatisch te laten zien
+
     function showSlides() {
         slideIndex++;
         if (slideIndex >= totalSlides) {
             slideIndex = 0;
         }
         updateSlidePosition();
-        updateVariables(); // Update variables on automatic slide change
+        updateVariables(); 
         setTimeout(showSlides, 10000);
     }
 
-    // Functie om van slide te veranderen
+   
     function changeSlide(n) {
         slideIndex += n;
         if (slideIndex >= totalSlides) {
@@ -34,28 +34,28 @@ document.addEventListener('DOMContentLoaded', function () {
             slideIndex = totalSlides - 1;
         }
         updateSlidePosition();
-        updateVariables(); // Update variables on manual slide change
+        updateVariables(); 
     }
 
-    // Functie om naar een specifieke slide te gaan
+   
     function goToSlide(index) {
         slideIndex = index;
         updateSlidePosition();
-        updateVariables(); // Update variables on manual slide change
+        updateVariables(); 
     }
 
-    // Functie om de positie van de slides bij te werken
+    
     function updateSlidePosition() {
         slides.style.transform = `translateX(-${slideIndex * 100}%)`;
     }
 
-    // Functie om de variabelen bij te werken op basis van de huidige slide
+   
     function updateVariables() {
         tuin1 = slideIndex === 0;
         tuin2 = slideIndex === 1;
         tuin3 = slideIndex === 2;
     
-        // Update thumbnails based on the current slide
+  
         if (tuin1) {
             console.log("tuin1 works");
             tuin2 = false;
@@ -87,13 +87,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Event listeners voor de volgende en vorige knoppen
+    
     document.querySelector('.next').addEventListener('click', () => {
         changeSlide(1);
     });
 
     document.getElementById('leftThumb').addEventListener('click', () => {
-        changeSlide(-1); // Adjust the direction of slide change as needed
+        changeSlide(-1); 
     });
 
     document.querySelector('.prev').addEventListener('click', () => {
@@ -101,14 +101,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     document.getElementById('rightThumb').addEventListener('click', () => {
-        changeSlide(1); // Adjust the direction of slide change as needed
+        changeSlide(1); 
     });
 
 
-    // Start de automatische slideshow
+    
     showSlides();
 
-    // Update de variabelen bij het initiële laden
+    
     updateVariables();
 });
 

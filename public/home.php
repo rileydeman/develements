@@ -39,9 +39,32 @@
         </div>
         <div class="item item-2 slideshow">
             <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
-            <img src="public/assets/img/Tuin1.webp" alt="Description of image">
-            <img src="public/assets/img/home-design.jpg" alt="Description of image">
+            <img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image">
+            <img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image">
         </div>
+    </div>
+</section>
+
+<section id="short-info">
+    <div class="short-info-container">
+    <div class="short-info-container">
+        <div class="icon-label">
+            <img src="lawn-mower.png" alt="Renovatie">
+            <p>Renovatie</p>
+        </div>
+        <div class="icon-label">
+            <img src="pruning-shears.png" alt="Tuin Onderhoud">
+            <p>Tuin Onderhoud</p>
+        </div>
+        <div class="icon-label">
+            <img src="shovel.png" alt="Tuinaanleg">
+            <p>Tuinaanleg</p>
+        </div>
+        <div class="icon-label">
+            <img src="design-tools.png" alt="Tuinontwerp">
+            <p>Tuinontwerp</p>
+        </div>
+    </div>
     </div>
 </section>
 </main>

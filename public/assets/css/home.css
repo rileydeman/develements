@@ -3,13 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    padding: 20px;
+    height: 50vh;
     box-sizing: border-box;
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .item-1 {
@@ -27,13 +26,13 @@ main {
 .slideshow {
     flex: 1;
     position: relative;
-    height: 100%;
+    height: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    max-width: 600px;
-    max-height: 400px;
+    max-width: 700px;
+    max-height: 600px;
 }
 
 .slideshow img {
@@ -67,7 +66,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6f7e6; 
+    background-color: #ffffff; 
     color: #195019; 
 }
 
@@ -119,7 +118,48 @@ h1{
     float: left;
 }
 
+/* info rectangle */
 
+#short-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 0px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.short-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-label img {
+    max-width: 100px;
+    height: auto;
+}
+
+.icon-label p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+
+/* Footer Styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -142,9 +182,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 20px;
-}
 
 section {
     margin-bottom: 20px;

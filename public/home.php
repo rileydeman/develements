@@ -73,9 +73,17 @@
 
 </section>
 
-<section id="recensies">
+<section class="testimonials">
+    <div class="container2">
+        <div class="section-main">
+            <h2 class="title">wat onze clienten zeggen</h2>
+        </div>
+        <div class="testimonials-content">
+            <div class="testimonials-slider.js">
 
-
+            </div>
+        </div>
+    </div>
 </section>
 </main>
 

@@ -13,9 +13,8 @@ include ('app/db/db-conn.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hendrik Hogendijk</title>
 
-    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!--    Linking of the css files-->
     <link rel="stylesheet" href="/public/assets/css/fonts.css">
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <link rel="stylesheet" href="/public/assets/css/header.css">
@@ -23,6 +22,9 @@ include ('app/db/db-conn.php');
     <link rel="stylesheet" href="/public/assets/css/home.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
@@ -91,39 +93,39 @@ include ('app/db/db-conn.php');
             </div>
         </section>
 
-        <section id="recensies">
-    <h2>Testimonials</h2>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="testimonial">
-                    <p>"This is the first testimonial. Excellent service!"</p>
-                    <h3>- John Doe</h3>
+            <section id="recensies">
+        <h2>Testimonials</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the first testimonial. Excellent service!"</p>
+                        <h3>- John Doe</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the second testimonial. Highly recommend!"</p>
+                        <h3>- Jane Smith</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the third testimonial. Great experience!"</p>
+                        <h3>- Bob Johnson</h3>
+                    </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="testimonial">
-                    <p>"This is the second testimonial. Highly recommend!"</p>
-                    <h3>- Jane Smith</h3>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="testimonial">
-                    <p>"This is the third testimonial. Great experience!"</p>
-                    <h3>- Bob Johnson</h3>
-                </div>
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
-</section>
+            </section>
 
 
-</main>
+    </main>
 
     <footer>
         <!--    Getting the footer document-->

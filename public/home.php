@@ -90,11 +90,11 @@ include ('app/db/db-conn.php');
             </div>
         </section>
 
-        <section id="recensies">
+<section id="recensies">
 
 
-        </section>
-    </main>
+</section>
+</main>
 
     <footer>
         <!--    Getting the footer document-->

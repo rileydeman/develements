@@ -41,40 +41,42 @@ include_once("../app/db/db-conn.php");
     <main>
         <div id="content">
 
-<h2>Gegevens Beheer</h2> <br><br><br>
+            <h1>Diensten</h1>
+            <p>Op deze pagina kunt u al uw diensten beheren, denk daarbij aan toevoegen, bijwerken en updaten.</p>
 
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Naam</th>
-            <th>Beschrijving</th>
-            <th>Aangemaakte Datum</th>
-            <th>Laatst Bewerkt</th>
-            <th>Acties</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php
-        include './core/placeholderArray.php'; // Zorg ervoor dat de diensten database hier geinclude wordt en verander de variables op basis daarvan
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Naam</th>
+                        <th>Beschrijving</th>
+                        <th>Aangemaakte Datum</th>
+                        <th>Laatst Bewerkt</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    /* @var array $diensten */
+                    include './core/placeholderArray.php'; // Zorg ervoor dat de diensten database hier geinclude wordt en verander de variables op basis daarvan
 
-        foreach($diensten as $dienstBox) { ?> 
-            <tr>
-            <td><?=$dienstBox['id']?></td>
-            <td><?=$dienstBox['dienst']?></td>
-            <td><?=$dienstBox['tekst']?></td>
-            <td><?=$dienstBox['aangemaakt']?></td>
-            <td><?=$dienstBox['laatst_bewerkt']?></td>
-            <td>
-                <a href='./core/bewerken.php?id=<?=$dienstBox['id']?>'>Bewerken</a> | 
-                <a href='./core/verwijderen.php?id=<?=$dienstBox['id']?>' onclick='return confirm(\"Weet je zeker dat je dit wilt verwijderen?\")'>Verwijderen</a>
-            </td>
-          </tr>
-          <?php
-        }
-        ?>
-    </tbody>
-</table>
+                    foreach ($diensten as $dienstBox) { ?>
+                        <tr>
+                            <td><?= $dienstBox['id'] ?></td>
+                            <td><?= $dienstBox['dienst'] ?></td>
+                            <td><?= $dienstBox['tekst'] ?></td>
+                            <td><?= $dienstBox['aangemaakt'] ?></td>
+                            <td><?= $dienstBox['laatst_bewerkt'] ?></td>
+                            <td>
+                                <a href='./core/bewerken.php?id=<?= $dienstBox['id'] ?>'>Bewerken</a> |
+                                <a href='./core/verwijderen.php?id=<?= $dienstBox['id'] ?>' onclick='return confirm(\"Weet je zeker dat je dit wilt verwijderen?\")'>Verwijderen</a>
+                            </td>
+                        </tr>
+                    <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
 
         </div>
 

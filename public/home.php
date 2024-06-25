@@ -1,19 +1,21 @@
-<?php   
-    /* @var mysqli $conn */
-    include('app/db/db-conn.php');
+<?php
+/* @var mysqli $conn */
+include ('app/db/db-conn.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME | siteName</title>
 
     <link rel="icon" href="">
 
-<!--    Linking of the css files-->
+    <!--    Linking of the css files-->
     <link rel="stylesheet" href="/public/assets/css/fonts.css">
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <link rel="stylesheet" href="/public/assets/css/header.css">
@@ -24,65 +26,82 @@
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
+
 <body>
 
-<header>
-<!--    Getting the header document-->
-    <?php include('public/core/header.php');?>
-</header>
+    <header>
+        <!--    Getting the header document-->
+        <?php include ('public/core/header.php'); ?>
+    </header>
 
-<main>
-<section id="home">
-    <div class="container">
-        <div class="item item-1">
-            <h1>Wij maken uw droomtuin realiteit.</h1><br>
-            <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient.</h3>
-        </div>
-        <div class="item item-2 slideshow">
-            <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
-            <img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image">
-            <img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image">
-        </div>
-    </div>
-</section>
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="item item-1">
+                    <h1>Wij maken uw droomtuin realiteit.</h1><br>
+                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar
+                        onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u
+                        verdient.</h3>
+                </div>
+                <div class="item item-2 slideshow">
+                    <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
+                    <img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image">
+                    <img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image">
+                </div>
+            </div>
+        </section>
 
-<section id="short-info">
-    <div class="short-info-container">
-    <div class="short-info-container">
-        <div class="icon-label">
-            <img src="lawn-mower.png" alt="Renovatie">
-            <p>Renovatie</p>
-        </div>
-        <div class="icon-label">
-            <img src="pruning-shears.png" alt="Tuin Onderhoud">
-            <p>Tuin Onderhoud</p>
-        </div>
-        <div class="icon-label">
-            <img src="shovel.png" alt="Tuinaanleg">
-            <p>Tuinaanleg</p>
-        </div>
-        <div class="icon-label">
-            <img src="design-tools.png" alt="Tuinontwerp">
-            <p>Tuinontwerp</p>
-        </div>
-    </div>
-    </div>
-</section>
+        <section id="short-info">
+            <div class="short-info-container">
+                <div class="short-info-container">
+                    <div class="icon-label">
+                        <img src="lawn-mower.png" alt="Renovatie">
+                        <p>Renovatie</p>
+                    </div>
+                    <div class="icon-label">
+                        <img src="pruning-shears.png" alt="Tuin Onderhoud">
+                        <p>Tuin Onderhoud</p>
+                    </div>
+                    <div class="icon-label">
+                        <img src="shovel.png" alt="Tuinaanleg">
+                        <p>Tuinaanleg</p>
+                    </div>
+                    <div class="icon-label">
+                        <img src="design-tools.png" alt="Tuinontwerp">
+                        <p>Tuinontwerp</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="over-mij">
-    
-</section>
+        <section id="over-mij">
+            <div id="text-div">
+                <h1 id="about-text">Waarom kiezen voor mij?</h1> <br>
+                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt.
+                    Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in
+                    zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af
+                    te stemmen.
+                </p> <br>
+                <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant
+                    staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een
+                    gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.
+                </p>
+            </div>
+            <div id="image-div" style='background-image: url("./public/assets/img/hendrik.jpg");'>
+            </div>
+        </section>
 
 <section id="recensies">
-    
+
 </section>
 
 </main>
 
-<footer>
-<!--    Getting the footer document-->
-    <?php include('public/core/footer.php'); ?>
-</footer>
+    <footer>
+        <!--    Getting the footer document-->
+        <?php include ('public/core/footer.php'); ?>
+    </footer>
 
 </body>
+
 </html>

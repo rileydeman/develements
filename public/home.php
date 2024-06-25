@@ -13,9 +13,8 @@ include ('app/db/db-conn.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hendrik Hogendijk</title>
 
-    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!--    Linking of the css files-->
     <link rel="stylesheet" href="/public/assets/css/fonts.css">
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <link rel="stylesheet" href="/public/assets/css/header.css">
@@ -23,6 +22,9 @@ include ('app/db/db-conn.php');
     <link rel="stylesheet" href="/public/assets/css/home.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
@@ -91,11 +93,37 @@ include ('app/db/db-conn.php');
             </div>
         </section>
 
-<section id="recensies">
+            <section id="recensies">
+        <h2>Testimonials</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the first testimonial"</p>
+                        <h3>- Jayden</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the second testimonial"</p>
+                        <h3>- Rick</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p>"This is the third testimonial"</p>
+                        <h3>- Riley</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+            </section>
 
-</section>
 
-</main>
+    </main>
 
     <footer>
         <!--    Getting the footer document-->

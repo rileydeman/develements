@@ -69,8 +69,7 @@
 </section>
 
 <section id="over-mij">
-
-
+    
 </section>
 
 <section class="testimonials">

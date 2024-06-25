@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/public/assets/css/footer.css">
     <link rel="stylesheet" href="/public/assets/css/home.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
@@ -72,18 +73,10 @@
     
 </section>
 
-<section class="testimonials">
-    <div class="container2">
-        <div class="section-main">
-            <h2 class="title">wat onze clienten zeggen</h2>
-        </div>
-        <div class="testimonials-content">
-            <div class="testimonials-slider.js">
-                
-            </div>
-        </div>
-    </div>
+<section id="recensies">
+    
 </section>
+
 </main>
 
 <footer>

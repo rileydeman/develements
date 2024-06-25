@@ -67,6 +67,16 @@
     </div>
     </div>
 </section>
+
+<section id="over-mij">
+
+
+</section>
+
+<section id="recensies">
+
+
+</section>
 </main>
 
 <footer>

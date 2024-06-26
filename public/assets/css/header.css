@@ -15,7 +15,7 @@ header {
     background: #ffffff;
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 120px; /* Use a fixed height in pixels */
     top: 0;
     left: 0;
     z-index: 999;
@@ -40,10 +40,11 @@ header {
 .nav-links {
     list-style: none;
     display: flex;
+    margin-left: auto; /* Pushes the navigation links to the right */
 }
 
 .nav-links li {
-    margin: 0 1rem;
+    margin-left: 20px;
 }
 
 .nav-links a {
@@ -60,6 +61,7 @@ header {
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
+    margin-left: 20px;
     color: black;
     font-size: 1.5rem;
     cursor: pointer;
@@ -114,7 +116,7 @@ header {
     color: #fff;
     background-color: #28a745;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 2rem;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;

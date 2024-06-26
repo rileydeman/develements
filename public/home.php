@@ -7,7 +7,8 @@ include('app/db/db-conn.php');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME | Hendrik Hogendijk</title>
 
@@ -33,7 +34,7 @@ include('app/db/db-conn.php');
 
 <body>
     <header>
-        <?php include('public/core/header.php'); ?>
+        <?php include ('public/core/header.php'); ?>
     </header>
 
     <main>
@@ -53,30 +54,41 @@ include('app/db/db-conn.php');
             <div class="short-info-container">
                 <div class="short-info-container">
                     <div class="icon-label">
-                        <img src="lawn-mower.png" alt="Renovatie">
+                        <img src="public/assets/img/tuinontwerp_icon.png" alt="Renovatie">
                         <p>Renovatie</p>
                     </div>
                     <div class="icon-label">
-                        <img src="pruning-shears.png" alt="Tuin Onderhoud">
+                        <img src="public/assets/img/tuinonderhoud_icon.png" alt="Tuin Onderhoud">
                         <p>Tuin Onderhoud</p>
                     </div>
                     <div class="icon-label">
-                        <img src="shovel.png" alt="Tuinaanleg">
+                        <img src="public/assets/img/tuinaanleg_icon.png" alt="Tuinaanleg">
                         <p>Tuinaanleg</p>
                     </div>
                     <div class="icon-label">
-                        <img src="design-tools.png" alt="Tuinontwerp">
+                        <img src="public/assets/img/tuinontwerp_icon.png" alt="Tuinontwerp">
                         <p>Tuinontwerp</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <sesction id="galerij">
+            <div id="galrij-container">
+                
+            </div>
+        </section>
+
         <section id="over-mij">
             <div id="text-div">
                 <h1 id="about-text">Waarom kiezen voor mij?</h1> <br>
-                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.</p> <br>
-                <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
+                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt.
+                    Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in
+                    zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af
+                    te stemmen.</p> <br>
+                <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant
+                    staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een
+                    gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
             </div>
             <div id="image-div" style='background-image: url("<?= BASEURL ?>public/assets/img/hendrik.jpg");'></div>
         </section>
@@ -85,36 +97,42 @@ include('app/db/db-conn.php');
             <h2>Testimonials</h2>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the first testimonial"</p>
-                            <h3>- Jayden</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the second testimonial"</p>
-                            <h3>- Rick</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the third testimonial"</p>
-                            <h3>- Riley</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fourth"</p>
-                            <h3>- Alex</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fifth"</p>
-                            <h3>- Taylor</h3>
-                        </div>
-                    </div>
+                <?php
+
+$testimonial = [
+    [
+        "name" => "Jayden",
+        "comment" => "This is the first testimonial",
+    ],
+    [
+        "name" => "Rick",
+        "comment" => "This is the second testimonial",
+    ],
+    [
+        "name" => "Riley",
+        "comment" => "This is the third testimonial",
+    ],
+    [
+        "name" => "Alex",
+        "comment" => "This is the fourth",
+    ],
+    [
+        "name" => "Taylor",
+        "comment" => "This is the fith",
+    ]
+];
+
+foreach ($testimonial as $comment) {
+    ?>
+    <div class="swiper-slide">
+        <div class="testimonial">
+            <p><?= $comment["comment"]; ?></p>
+            <h3>- <?= $comment["name"]; ?></h3>
+        </div>
+    </div>
+    <?php
+}
+?>
                 </div>
 <!--                <div class="swiper-pagination"></div>-->
 <!--                <div class="swiper-button-next"></div>-->
@@ -124,7 +142,7 @@ include('app/db/db-conn.php');
     </main>
 
     <footer>
-        <?php include('public/core/footer.php'); ?>
+        <?php include ('public/core/footer.php'); ?>
     </footer>
 </body>
 

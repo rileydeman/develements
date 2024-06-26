@@ -31,6 +31,10 @@ header {
   margin-bottom: 20px;
 }
 
+main {
+  margin-top: 15vh !important;
+}
+
 header h1 {
   margin-bottom: 10px;
 }

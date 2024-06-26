@@ -1,0 +1,48 @@
+main {
+    #homeHead {
+        display: flex;
+        height: 80vh;
+
+        #left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #content {
+                width: 80%;
+                height: 80%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                text-align: start;
+
+                h1, h3 {
+                    margin: 0;
+                }
+
+                h1 {
+                    width: 80%;
+                }
+            }
+        }
+
+        #right {
+            width: 50%;
+            height: 100%;
+            padding-left: 1%;
+            border-left: 2px dotted #000000;
+
+            #homeSlideShow {
+                width: 100%;
+                height: 100%;
+
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}

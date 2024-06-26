@@ -96,6 +96,18 @@ include ('app/db/db-conn.php');
                             <h3>- Riley</h3>
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the fourth"</p>
+                            <h3>- Alex</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the fifth"</p>
+                            <h3>- Taylor</h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>

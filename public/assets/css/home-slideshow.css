@@ -25,9 +25,10 @@ main {
                 }
 
                 h1 {
-                    width: 80%;
+                    width: 70%;
                     font-weight: bold;
-                    font-size: 6.2rem;
+                    font-size: 6.5rem;
+                    line-height: 120px;
                 }
             }
         }
@@ -36,7 +37,7 @@ main {
             width: 50%;
             height: 100%;
             padding-left: 1%;
-            border-left: 2px dotted #000000;
+            border-left: 2px solid #000000;
 
             #homeSlideShow {
                 width: 100%;

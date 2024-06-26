@@ -46,22 +46,28 @@ include ('app/db/db-conn.php');
             <div class="short-info-container">
                 <div class="short-info-container">
                     <div class="icon-label">
-                        <img src="lawn-mower.png" alt="Renovatie">
+                        <img src="public/assets/img/tuinontwerp_icon.png" alt="Renovatie">
                         <p>Renovatie</p>
                     </div>
                     <div class="icon-label">
-                        <img src="pruning-shears.png" alt="Tuin Onderhoud">
+                        <img src="public/assets/img/tuinonderhoud_icon.png" alt="Tuin Onderhoud">
                         <p>Tuin Onderhoud</p>
                     </div>
                     <div class="icon-label">
-                        <img src="shovel.png" alt="Tuinaanleg">
+                        <img src="public/assets/img/tuinaanleg_icon.png" alt="Tuinaanleg">
                         <p>Tuinaanleg</p>
                     </div>
                     <div class="icon-label">
-                        <img src="design-tools.png" alt="Tuinontwerp">
+                        <img src="public/assets/img/tuinontwerp_icon.png" alt="Tuinontwerp">
                         <p>Tuinontwerp</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <sesction id="galerij">
+            <div id="galrij-container">
+                
             </div>
         </section>
 

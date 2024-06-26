@@ -25,7 +25,6 @@ include('app/db/db-conn.php');
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 
-<!--    The javascript things for the slideshow at the top of the homepage-->
     <script>
         const BASEURL = "<?= BASEURL ?>";
     </script>
@@ -134,9 +133,9 @@ foreach ($testimonial as $comment) {
 }
 ?>
                 </div>
-<!--                <div class="swiper-pagination"></div>-->
-<!--                <div class="swiper-button-next"></div>-->
-<!--                <div class="swiper-button-prev"></div>-->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
             </div>
         </section>
     </main>

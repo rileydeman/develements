@@ -1,5 +1,5 @@
 <?php
-include ('app/db/db-conn.php');
+include('app/db/db-conn.php');
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ include ('app/db/db-conn.php');
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hendrik Hogendijk</title>
+    <title>HOME | Hendrik Hogendijk</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/public/assets/css/fonts.css">
@@ -18,11 +18,18 @@ include ('app/db/db-conn.php');
     <link rel="stylesheet" href="/public/assets/css/header.css">
     <link rel="stylesheet" href="/public/assets/css/footer.css">
     <link rel="stylesheet" href="/public/assets/css/home.css">
+    <link rel="stylesheet" href="/public/assets/css/home-slideshow.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
+
+<!--    The javascript things for the slideshow at the top of the homepage-->
+    <script>
+        const BASEURL = "<?= BASEURL ?>";
+    </script>
+    <script defer src="/public/assets/js/home-slideshow.js"></script>
 </head>
 
 <body>
@@ -31,24 +38,15 @@ include ('app/db/db-conn.php');
     </header>
 
     <main>
-        <section id="home">
-            <div class="container">
-                <div class="item item-1">
-                    <h1>Wij maken uw droomtuin realiteit.</h1><br>
-                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar
-                        onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u
-                        verdient.</h3>
+        <section id="homeHead">
+            <div id="left">
+                <div id="content">
+                    <h1>Ik maak uw droomtuin realiteit.</h1><br>
+                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient</h3>
                 </div>
-                <div class="item item-2">
-                    <div class="swiper-container slideshow">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="public/assets/img/zwembad_modern.jpg" alt="Description of image"></div>
-                            <div class="swiper-slide"><img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image"></div>
-                            <div class="swiper-slide"><img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image"></div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
+            </div>
+            <div id="right">
+                <div id="homeSlideShow"></div>
             </div>
         </section>
 
@@ -92,7 +90,7 @@ include ('app/db/db-conn.php');
                     staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een
                     gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
             </div>
-            <div id="image-div" style='background-image: url("./public/assets/img/hendrik.jpg");'></div>
+            <div id="image-div" style='background-image: url("<?= BASEURL ?>public/assets/img/hendrik.jpg");'></div>
         </section>
 
         <section id="recensies">
@@ -136,9 +134,9 @@ foreach ($testimonial as $comment) {
 }
 ?>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+<!--                <div class="swiper-pagination"></div>-->
+<!--                <div class="swiper-button-next"></div>-->
+<!--                <div class="swiper-button-prev"></div>-->
             </div>
         </section>
     </main>

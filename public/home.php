@@ -1,9 +1,10 @@
 <?php
-include ('app/db/db-conn.php');
+include('app/db/db-conn.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -16,29 +17,35 @@ include ('app/db/db-conn.php');
     <link rel="stylesheet" href="/public/assets/css/header.css">
     <link rel="stylesheet" href="/public/assets/css/footer.css">
     <link rel="stylesheet" href="/public/assets/css/home.css">
+    <link rel="stylesheet" href="/public/assets/css/home-slideshow.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
+
+<!--    The javascript things for the slideshow at the top of the homepage-->
+    <script>
+        const BASEURL = "<?= BASEURL ?>";
+    </script>
+    <script defer src="/public/assets/js/home-slideshow.js"></script>
 </head>
+
 <body>
     <header>
         <?php include('public/core/header.php'); ?>
     </header>
 
     <main>
-        <section id="home">
-            <div class="container">
-                <div class="item item-1">
+        <section id="homeHead">
+            <div id="left">
+                <div id="content">
                     <h1>Wij maken uw droomtuin realiteit.</h1><br>
                     <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient.</h3>
                 </div>
-                <div class="item item-2 slideshow">
-                    <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
-                    <img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image">
-                    <img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image">
-                </div>
+            </div>
+            <div id="right">
+                <div id="homeSlideShow"></div>
             </div>
         </section>
 
@@ -109,9 +116,9 @@ include ('app/db/db-conn.php');
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+<!--                <div class="swiper-pagination"></div>-->
+<!--                <div class="swiper-button-next"></div>-->
+<!--                <div class="swiper-button-prev"></div>-->
             </div>
         </section>
     </main>
@@ -120,4 +127,5 @@ include ('app/db/db-conn.php');
         <?php include('public/core/footer.php'); ?>
     </footer>
 </body>
+
 </html>

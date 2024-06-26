@@ -63,6 +63,7 @@ main {
 #recensies h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #195019; /* Set the color to green */
 }
 
 .swiper-container {
@@ -73,8 +74,10 @@ main {
 
 .swiper-slide {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px; /* Add padding to create space between slides */
 }
 
 .testimonial {
@@ -99,7 +102,7 @@ main {
 
 /* Swiper Navigation Buttons */
 .swiper-button-next, .swiper-button-prev {
-    color: #195019;
+    display: none;
 }
 
 /* Swiper Pagination */
@@ -135,6 +138,9 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
@@ -152,10 +158,7 @@ main {
 
 .slider-frame {
     overflow: hidden;
-    height: 800px;
-    width: 1200px;
-    margin-left: 360px;
-    margin-top: 20px;
+    height: 800px
 }
 
 @-webkit-keyframes slide_animation {
@@ -173,7 +176,7 @@ main {
 }
 
 .slide-images {
-    width: 3600;
+    width: 3600px; /* Corrected from '3600' */
     height: 200px;
     margin: 0 0 0 -2400px;
     position: relative;
@@ -330,21 +333,46 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .text-content h1 {
-        font-size: 28px;
-    }
-
-    .text-content p {
-        font-size: 16px;
-    }
-
-    .text-content h3 {
-        font-size: 20px;
-    }
+/* Additional CSS for Testimonials Section */
+.testimonial-header {
+    margin-bottom: 20px;
 }
+
+.testimonial-header h2 {
+    font-size: 2.5rem;
+    color: #195019;
+}
+
+.testimonials-slider {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.swiper-wrapper {
+    display: flex; /* Display slides horizontally */
+}
+
+.swiper-slide {
+    flex: 0 0 auto; /* Prevent slides from stretching */
+    width: 100%; /* Ensure each slide takes full width */
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    margin: auto; /* Center testimonial content */
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+} 

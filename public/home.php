@@ -78,48 +78,51 @@ include ('app/db/db-conn.php');
         </section>
 
         <section id="recensies">
-            <h2>Testimonials</h2>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                <?php
-$testimonial = [
-    [
-        "comment" => "This is the first testimonial",
-        "name" => "Jayden",
-    ],
-    [
-        "comment" => "This is the second testimonial",
-        "name" => "Rick",
-    ],
-    [
-        "comment" => "This is the third testimonial",
-        "name" => "Riley",
-    ],
-    [
-        "comment" => "This is the fourth",
-        "name" => "Alex",
-    ],
-    [
-        "comment" => "This is the fifth",
-        "name" => "Taylor",
-    ]
-];
-
-foreach ($testimonial as $comment) {
-    ?>
-    <div class="swiper-slide">
-        <div class="testimonial">
-            <p><?= $comment["comment"]; ?></p>
-            <h3>- <?= $comment["name"]; ?></h3>
-        </div>
+    <div class="testimonial-header">
+        <h2>Testimonials</h2>
     </div>
-    <?php
-}
-?>
+    <div class="swiper-container testimonials-slider">
+        <div class="swiper-wrapper">
+            <?php
+            $testimonial = [
+                [
+                    "comment" => "This is the first testimonial",
+                    "name" => "Jayden",
+                ],
+                [
+                    "comment" => "This is the second testimonial",
+                    "name" => "Rick",
+                ],
+                [
+                    "comment" => "This is the third testimonial",
+                    "name" => "Riley",
+                ],
+                [
+                    "comment" => "This is the fourth",
+                    "name" => "Alex",
+                ],
+                [
+                    "comment" => "This is the fifth",
+                    "name" => "Taylor",
+                ]
+            ];
+
+            foreach ($testimonial as $comment) {
+                ?>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <p><?= $comment["comment"]; ?></p>
+                        <h3>- <?= $comment["name"]; ?></h3>
+                    </div>
                 </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
+                <?php
+            }
+            ?>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
     </main>
 
     <footer>

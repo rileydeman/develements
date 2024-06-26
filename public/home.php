@@ -95,24 +95,24 @@ include ('app/db/db-conn.php');
 
 $testimonial = [
     [
-        "comment" => "This is the first testimonial",
         "name" => "Jayden",
+        "comment" => "This is the first testimonial",
     ],
     [
-        "comment" => "This is the second testimonial",
         "name" => "Rick",
+        "comment" => "This is the second testimonial",
     ],
     [
-        "comment" => "This is the third testimonial",
         "name" => "Riley",
+        "comment" => "This is the third testimonial",
     ],
     [
-        "comment" => "This is the fourth",
         "name" => "Alex",
+        "comment" => "This is the fourth",
     ],
     [
-        "comment" => "This is the fith",
         "name" => "Taylor",
+        "comment" => "This is the fith",
     ]
 ];
 

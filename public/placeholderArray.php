@@ -6,9 +6,9 @@ $diensten = [
         "icon" => "/public/assets/img/tuinontwerp_icon.png",
         "id" => "1",
         "tekst" => "Een mooie tuin valt of staat bij een goed tuinontwerp. Als het op ontwerpen aankomt, maakt Hendrik Hogendijk het verschil.",
-        "cycleImage1" => "/public/assets/img/tuin1.jpg",
-        "cycleImage2" => "/public/assets/img/tuin2.jpg",
-        "cycleImage3" => "/public/assets/img/tuin3.jpg",
+        "cycleImage1" => "/public/assets/img/tuinontwerp_image1.webp",
+        "cycleImage2" => "/public/assets/img/tuinontwerp_image2.webp",
+        "cycleImage3" => "/public/assets/img/tuinontwerp_image3.jpg",
     ],
     [
         "dienst" => "Tuinonderhoud",

@@ -4,9 +4,11 @@ include ('app/db/db-conn.php');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hendrik Hogendijk</title>
 
@@ -22,9 +24,10 @@ include ('app/db/db-conn.php');
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/slideshow.js"></script>
 </head>
+
 <body>
     <header>
-        <?php include('public/core/header.php'); ?>
+        <?php include ('public/core/header.php'); ?>
     </header>
 
     <main>
@@ -32,7 +35,9 @@ include ('app/db/db-conn.php');
             <div class="container">
                 <div class="item item-1">
                     <h1>Wij maken uw droomtuin realiteit.</h1><br>
-                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient.</h3>
+                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar
+                        onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u
+                        verdient.</h3>
                 </div>
                 <div class="item item-2 slideshow">
                     <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
@@ -68,8 +73,13 @@ include ('app/db/db-conn.php');
         <section id="over-mij">
             <div id="text-div">
                 <h1 id="about-text">Waarom kiezen voor mij?</h1> <br>
-                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.</p> <br>
-                <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
+                <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt.
+                    Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in
+                    zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af
+                    te stemmen.</p> <br>
+                <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant
+                    staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een
+                    gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
             </div>
             <div id="image-div" style='background-image: url("./public/assets/img/hendrik.jpg");'></div>
         </section>
@@ -78,46 +88,84 @@ include ('app/db/db-conn.php');
             <h2>Testimonials</h2>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+
+                        <?php
+
+                        $testimonial = [
+                            [
+                                "comment" => "This is the first testimonial",
+                                "name" => "Jayden",
+                            ],
+                            [
+                                "comment" => "This is the second testimonial",
+                                "name" => "Rick",
+                            ],
+                            [
+                                "comment" => "This is the third testimonial",
+                                "name" => "Riley",
+                            ],
+                            [
+                                "comment" => "This is the fourth",
+                                "name" => "Alex",
+                            ],
+                            [
+                                "comment" => "This is the fith",
+                                "name" => "Taylor",
+                            ]
+                        ];
+
+                        foreach ($testimonial as $comment) {
+                            ?>
+                            <div class="swiper-slide">
+                                <div class="testimonial">
+                                    <p><?= $comment["comment"]; ?></p>
+                                    <h3>- <?= $comment["name"]; ?></h3>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                        ?>
                         <div class="testimonial">
                             <p>"This is the first testimonial"</p>
                             <h3>- Jayden</h3>
+                            d/div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the second testimonial"</p>
-                            <h3>- Rick</h3>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <p>"This is the second testimonial"</p>
+                                <h3>- Rick</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the third testimonial"</p>
-                            <h3>- Riley</h3>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <p>"This is the third testimonial"</p>
+                                <h3>- Riley</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fourth"</p>
-                            <h3>- Alex</h3>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <p>"This is the fourth"</p>
+                                <h3>- Alex</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fifth"</p>
-                            <h3>- Taylor</h3>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <p>"This is the fifth"</p>
+                                <h3>- Taylor</h3>
+                            </div>
+                            di/div>
                         </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        divdiv class="swiper-button-prev">
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
         </section>
     </main>
 
     <footer>
-        <?php include('public/core/footer.php'); ?>
+        <?php include ('public/core/footer.php'); ?>
     </footer>
 </body>
+
 </html>

@@ -63,18 +63,19 @@ main {
 #recensies h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #195019; /* Set the color to green */
 }
 
 .swiper-container {
-    width: 50%;
-    height: 100px;
-    margin: 5px;
+    width: 80%;
+    margin: auto;
 }
 
 .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px; /* Add padding to create space between slides */
 }
 
 .testimonial {
@@ -135,6 +136,9 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }

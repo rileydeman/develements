@@ -84,7 +84,7 @@ include ('app/db/db-conn.php');
     <div class="swiper-container testimonials-slider">
         <div class="swiper-wrapper">
             <?php
-            $testimonial = [
+            $testimonials = [
                 [
                     "comment" => "This is the first testimonial",
                     "name" => "Jayden",
@@ -107,12 +107,12 @@ include ('app/db/db-conn.php');
                 ]
             ];
 
-            foreach ($testimonial as $comment) {
+            foreach ($testimonials as $testimonial) {
                 ?>
                 <div class="swiper-slide">
                     <div class="testimonial">
-                        <p><?= $comment["comment"]; ?></p>
-                        <h3>- <?= $comment["name"]; ?></h3>
+                        <p><?= $testimonial["comment"]; ?></p>
+                        <h3>- <?= $testimonial["name"]; ?></h3>
                     </div>
                 </div>
                 <?php

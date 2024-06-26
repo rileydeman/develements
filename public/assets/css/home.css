@@ -73,6 +73,7 @@ main {
 
 .swiper-slide {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px; /* Add padding to create space between slides */

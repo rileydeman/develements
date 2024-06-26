@@ -9,7 +9,7 @@ include('app/db/db-conn.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hendrik Hogendijk</title>
+    <title>HOME | Hendrik Hogendijk</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/public/assets/css/fonts.css">
@@ -78,7 +78,7 @@ include('app/db/db-conn.php');
                 <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.</p> <br>
                 <p>Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
             </div>
-            <div id="image-div" style='background-image: url("./public/assets/img/hendrik.jpg");'></div>
+            <div id="image-div" style='background-image: url("<?= BASEURL ?>public/assets/img/hendrik.jpg");'></div>
         </section>
 
         <section id="recensies">

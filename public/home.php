@@ -73,7 +73,7 @@ include('app/db/db-conn.php');
             </div>
         </section>
 
-        <sesction id="galerij">
+        <section id="galerij">
             <div id="galrij-container">
                 
             </div>

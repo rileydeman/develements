@@ -19,6 +19,9 @@
 </head>
 
 <body>
+    <header>
+        <?php include "core/header.php"; ?>
+    </header>
     <?php include "./placeholderArray.php";
     $id = $_GET["id"];
     $length = count($diensten);
@@ -26,9 +29,6 @@
     foreach ($diensten as $dienst) {
         if ($dienst["id"] == $id) {
             ?>
-            <header>
-                <?php include "core/header.php"; ?>
-            </header>
 
             <main>
                 <div class="slideshow-container">

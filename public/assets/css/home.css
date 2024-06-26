@@ -100,7 +100,7 @@ main {
 
 /* Swiper Navigation Buttons */
 .swiper-button-next, .swiper-button-prev {
-    color: #195019;
+    display: none;
 }
 
 /* Swiper Pagination */
@@ -156,10 +156,7 @@ main {
 
 .slider-frame {
     overflow: hidden;
-    height: 800px;
-    width: 1200px;
-    margin-left: 360px;
-    margin-top: 20px;
+    height: 800px
 }
 
 @-webkit-keyframes slide_animation {
@@ -177,7 +174,7 @@ main {
 }
 
 .slide-images {
-    width: 3600;
+    width: 3600px; /* Corrected from '3600' */
     height: 200px;
     margin: 0 0 0 -2400px;
     position: relative;

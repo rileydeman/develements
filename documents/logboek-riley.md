@@ -2,6 +2,9 @@
 
 ## Week 4
 
+### 26/06/2024
+- De slideshow op de home goed/beter gemaakt => Code
+
 ### 24/06/2024
 - CMS core responsive gemaakt => Code
 

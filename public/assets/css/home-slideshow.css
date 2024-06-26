@@ -1,7 +1,7 @@
 main {
     #homeHead {
         display: flex;
-        height: 80vh;
+        height: 84vh;
 
         #left {
             width: 50%;
@@ -26,6 +26,8 @@ main {
 
                 h1 {
                     width: 80%;
+                    font-weight: bold;
+                    font-size: 5.5rem;
                 }
             }
         }

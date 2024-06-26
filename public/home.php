@@ -39,33 +39,36 @@ include ('app/db/db-conn.php');
                         onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u
                         verdient.</h3>
                 </div>
-                <div class="item item-2 slideshow">
-                    <img src="public/assets/img/zwembad_modern.jpg" alt="Description of image">
-                    <img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image">
-                    <img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image">
+                <div class="item item-2">
+                    <div class="swiper-container slideshow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="public/assets/img/zwembad_modern.jpg" alt="Description of image"></div>
+                            <div class="swiper-slide"><img src="public/assets/img/nieuwtuin2.jpg" alt="Description of image"></div>
+                            <div class="swiper-slide"><img src="public/assets/img/nieuwtuin3.jpg" alt="Description of image"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="short-info">
             <div class="short-info-container">
-                <div class="short-info-container">
-                    <div class="icon-label">
-                        <img src="lawn-mower.png" alt="Renovatie">
-                        <p>Renovatie</p>
-                    </div>
-                    <div class="icon-label">
-                        <img src="pruning-shears.png" alt="Tuin Onderhoud">
-                        <p>Tuin Onderhoud</p>
-                    </div>
-                    <div class="icon-label">
-                        <img src="shovel.png" alt="Tuinaanleg">
-                        <p>Tuinaanleg</p>
-                    </div>
-                    <div class="icon-label">
-                        <img src="design-tools.png" alt="Tuinontwerp">
-                        <p>Tuinontwerp</p>
-                    </div>
+                <div class="icon-label">
+                    <img src="lawn-mower.png" alt="Renovatie">
+                    <p>Renovatie</p>
+                </div>
+                <div class="icon-label">
+                    <img src="pruning-shears.png" alt="Tuin Onderhoud">
+                    <p>Tuin Onderhoud</p>
+                </div>
+                <div class="icon-label">
+                    <img src="shovel.png" alt="Tuinaanleg">
+                    <p>Tuinaanleg</p>
+                </div>
+                <div class="icon-label">
+                    <img src="design-tools.png" alt="Tuinontwerp">
+                    <p>Tuinontwerp</p>
                 </div>
             </div>
         </section>
@@ -88,78 +91,41 @@ include ('app/db/db-conn.php');
             <h2>Testimonials</h2>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-
-                        <?php
-
-                        $testimonial = [
-                            [
-                                "comment" => "This is the first testimonial",
-                                "name" => "Jayden",
-                            ],
-                            [
-                                "comment" => "This is the second testimonial",
-                                "name" => "Rick",
-                            ],
-                            [
-                                "comment" => "This is the third testimonial",
-                                "name" => "Riley",
-                            ],
-                            [
-                                "comment" => "This is the fourth",
-                                "name" => "Alex",
-                            ],
-                            [
-                                "comment" => "This is the fith",
-                                "name" => "Taylor",
-                            ]
-                        ];
-
-                        foreach ($testimonial as $comment) {
-                            ?>
-                            <div class="swiper-slide">
-                                <div class="testimonial">
-                                    <p><?= $comment["comment"]; ?></p>
-                                    <h3>- <?= $comment["name"]; ?></h3>
-                                </div>
-                            </div>
-                            <?php
-                        }
-                        ?>
+                    <div class="swiper-slide">
                         <div class="testimonial">
                             <p>"This is the first testimonial"</p>
                             <h3>- Jayden</h3>
-                            d/div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>"This is the second testimonial"</p>
-                                <h3>- Rick</h3>
-                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the second testimonial"</p>
+                            <h3>- Rick</h3>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>"This is the third testimonial"</p>
-                                <h3>- Riley</h3>
-                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the third testimonial"</p>
+                            <h3>- Riley</h3>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>"This is the fourth"</p>
-                                <h3>- Alex</h3>
-                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the fourth"</p>
+                            <h3>- Alex</h3>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>"This is the fifth"</p>
-                                <h3>- Taylor</h3>
-                            </div>
-                            di/div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"This is the fifth"</p>
+                            <h3>- Taylor</h3>
                         </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
-                        divdiv class="swiper-button-prev">
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </section>
     </main>
 

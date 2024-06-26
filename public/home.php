@@ -41,7 +41,7 @@ include('app/db/db-conn.php');
             <div id="left">
                 <div id="content">
                     <h1>Wij maken uw droomtuin realiteit.</h1><br>
-                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient.</h3>
+                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient</h3>
                 </div>
             </div>
             <div id="right">

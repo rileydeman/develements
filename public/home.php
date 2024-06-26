@@ -99,36 +99,42 @@ include ('app/db/db-conn.php');
             <h2>Testimonials</h2>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the first testimonial"</p>
-                            <h3>- Jayden</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the second testimonial"</p>
-                            <h3>- Rick</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the third testimonial"</p>
-                            <h3>- Riley</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fourth"</p>
-                            <h3>- Alex</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <p>"This is the fifth"</p>
-                            <h3>- Taylor</h3>
-                        </div>
-                    </div>
+                <?php
+
+$testimonial = [
+    [
+        "comment" => "This is the first testimonial",
+        "name" => "Jayden",
+    ],
+    [
+        "comment" => "This is the second testimonial",
+        "name" => "Rick",
+    ],
+    [
+        "comment" => "This is the third testimonial",
+        "name" => "Riley",
+    ],
+    [
+        "comment" => "This is the fourth",
+        "name" => "Alex",
+    ],
+    [
+        "comment" => "This is the fith",
+        "name" => "Taylor",
+    ]
+];
+
+foreach ($testimonial as $comment) {
+    ?>
+    <div class="swiper-slide">
+        <div class="testimonial">
+            <p><?= $comment["comment"]; ?></p>
+            <h3>- <?= $comment["name"]; ?></h3>
+        </div>
+    </div>
+    <?php
+}
+?>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>

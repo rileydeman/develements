@@ -27,7 +27,7 @@ main {
                 h1 {
                     width: 80%;
                     font-weight: bold;
-                    font-size: 5.5rem;
+                    font-size: 6.2rem;
                 }
             }
         }
@@ -44,6 +44,8 @@ main {
 
                 background-size: cover;
                 background-position: center;
+
+                transition: 1s linear;
             }
         }
     }

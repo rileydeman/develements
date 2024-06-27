@@ -68,15 +68,17 @@
                             dienst!" - Hendrik Hogendijk</p>
                     </div>
                     <hr class="divider">
-                    <div style="padding:10px;">
-                        <h1>Openingstijden: </h1><br>
-                        <p><strong>Maandag-Vrijdag:</strong> 07:00-17:00</p><br>
-                        <p><strong>Zaterdag:</strong> op afspraak</p><br>
-                        <p><strong>Zondag:</strong> gesloten</p><br>
-                    </div>
-                    <div id="contactButtonBox">
-                        <button class="contactButton" onclick="window.location.href = './contact';">Neem contact
-                            op!</button>
+                    <div id="phone-style">
+                        <div style="padding:10px;">
+                            <h1>Openingstijden: </h1><br>
+                            <p class="contactP"><strong>Maandag-Vrijdag:</strong> 07:00-17:00</p>
+                            <p class="contactP"><strong>Zaterdag:</strong> op afspraak</p>
+                            <p class="contactP"><strong>Zondag:</strong> gesloten</p>
+                        </div>
+                        <div id="contactButtonBox">
+                            <button class="contactButton" onclick="window.location.href = './contact';">Neem contact
+                                op!</button>
+                        </div>
                     </div>
                 </div>
                 <div id="contactContainer2">

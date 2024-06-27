@@ -9,5 +9,5 @@
     </div>
 </div>
 <div class="footer-bottom">
-    <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    <p>&copy; 2024-<?= date("Y") ?> MyWebsite. All rights reserved.</p>
 </div>

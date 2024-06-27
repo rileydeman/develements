@@ -1,7 +1,7 @@
 main {
     #homeHead {
         display: flex;
-        height: 84vh;
+        height: 90vh;
 
         #left {
             width: 50%;

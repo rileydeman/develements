@@ -7,8 +7,7 @@ include('app/db/db-conn.php');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME | Hendrik Hogendijk</title>
 
@@ -33,7 +32,7 @@ include('app/db/db-conn.php');
 
 <body>
     <header>
-        <?php include ('public/core/header.php'); ?>
+        <?php include('public/core/header.php'); ?>
     </header>
 
     <main>
@@ -74,7 +73,7 @@ include('app/db/db-conn.php');
 
         <section id="galerij">
             <div id="galrij-container">
-                
+
             </div>
         </section>
 
@@ -96,8 +95,8 @@ include('app/db/db-conn.php');
             <h2>- Recensies -</h2>
             <div class="reviews-container">
 
-            <div class="slideshow-container">
-                <?php
+                <div class="slideshow-container">
+                    <?php
                     $reviews = [
                         [
                             'name' => 'Gerda',
@@ -119,28 +118,27 @@ include('app/db/db-conn.php');
                         ]
                     ];
 
-                    foreach ($reviews as $index => $review) {
-                        echo "<div class='review slide' id='slide-{$index}'>";
-                        echo "<div class='review-content'>";
-                        echo "<h2>{$review['name']}</h2>";
-                        echo "<div class='rating'>";
-                        echo "</div>";
-                        echo "<p class='comment'>{$review['comment']}</p>";
-                        echo "</div>";
-                        echo "</div>";
-                    }
-                ?>
+                    foreach ($reviews as $index => $review) { ?>
+                        <div class='review slide' id='slide-<?= $index ?>'>
+                            <div class='review-content'>
+                                <h2><?php $review['name'] ?></h2>
+                                <div class='rating'>
+                                </div>
+                                <p class='comment'><?= $review['comment'] ?></p>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+                <div class="controls">
+                    <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+                    <span class="next" onclick="plusSlides(1)">&#10095;</span>
+                </div>
             </div>
-            <div class="controls">
-                <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
-                <span class="next" onclick="plusSlides(1)">&#10095;</span>
-            </div>
-    </div>
         </section>
     </main>
 
     <footer>
-        <?php include ('public/core/footer.php'); ?>
+        <?php include('public/core/footer.php'); ?>
     </footer>
 </body>
 

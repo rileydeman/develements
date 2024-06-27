@@ -390,6 +390,19 @@ main {
     color: #777;
 }
 
+.review-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.review-header h2, .review-header small {
+    margin: 0;
+}
+
+
 .controls {
     position: absolute;
     top: 50%;

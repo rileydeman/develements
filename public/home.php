@@ -1,5 +1,5 @@
 <?php
-include('app/db/db-conn.php');
+include ('app/db/db-conn.php');
 ?>
 
 <!DOCTYPE html>
@@ -7,7 +7,8 @@ include('app/db/db-conn.php');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME | Hendrik Hogendijk</title>
 
@@ -32,7 +33,7 @@ include('app/db/db-conn.php');
 
 <body>
     <header>
-        <?php include('public/core/header.php'); ?>
+        <?php include ('public/core/header.php'); ?>
     </header>
 
     <main>
@@ -40,7 +41,9 @@ include('app/db/db-conn.php');
             <div id="left">
                 <div id="content">
                     <h1>Ik maak uw droomtuin realiteit.</h1><br>
-                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u verdient</h3>
+                    <h3>Een tuin is meer dan een vlakte gras. Een tuin is een plek waar u tot rust komt, waar
+                        onschatbare tijd wordt doorgebracht. Ik wil u het beste bieden zodat u de luxe kan ervaren dat u
+                        verdient</h3>
                 </div>
             </div>
             <div id="right">
@@ -121,8 +124,12 @@ include('app/db/db-conn.php');
                     foreach ($reviews as $index => $review) { ?>
                         <div class='review slide' id='slide-<?= $index ?>'>
                             <div class='review-content'>
-                                <h2><?= $review['name'] ?></h2>
+                                <div class="review-header">
+                                    <h2 style="margin-left:3vw;"><?= $review['name']?></h2><small style="margin-left:0.5vw;font-size:12px;">  (<?= $review['date'] ?>)</small>
+                                </div>
+
                                 <div class='rating'>
+                                    <!-- Rating content here -->
                                 </div>
                                 <p class='comment'><?= $review['comment'] ?></p>
                             </div>
@@ -134,7 +141,7 @@ include('app/db/db-conn.php');
     </main>
 
     <footer>
-        <?php include('public/core/footer.php'); ?>
+        <?php include ('public/core/footer.php'); ?>
     </footer>
 </body>
 

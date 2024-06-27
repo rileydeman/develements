@@ -75,8 +75,21 @@ include ('app/db/db-conn.php');
         </section>
 
         <section id="galerij">
-            <div id="galrij-container">
-
+            <div id="galerij-container">
+                <h1>Mijn Ontwerpen</h1>
+                <h2>Van Top Vakmanschap!</h2>
+                <p>De Beste Resultaten Voor Ieder Wat Wils! Ontdek De Galerij!</p>
+                <button class="gallery-button">Mijn Galerij</button>
+            </div>
+            <div class="carousel">
+                <button class="carousel-button prev">&lt;</button>
+                <div class="carousel-images">
+                    <img src="public/assets/img/tuinontwerp_icon.png" alt="Image 1">
+                    <img src="public/assets/img/tuinontwerp_icon.png" alt="Image 2">
+                    <img src="public/assets/img/tuinontwerp_icon.png" alt="Image 3">
+                </div>
+                <button class="carousel-button next">&gt;</button>
+            </div>
             </div>
         </section>
 
@@ -94,8 +107,8 @@ include ('app/db/db-conn.php');
             <div id="image-div" style='background-image: url("<?= BASEURL ?>public/assets/img/hendrik.jpg");'></div>
         </section>
 
-        <section id="recensies">
-            <h2>- Recensies -</h2>
+        <section id="recensies" style='background-image: url("<?= BASEURL ?>public/assets/img/tuinonderhoud1.png");'>
+
             <div class="reviews-container">
 
                 <div class="slideshow-container">

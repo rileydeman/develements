@@ -54,14 +54,14 @@ main {
 }
 
 #recensies {
-    padding: 40px;
+    padding: 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
 
 #recensies h2 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #195019;
 }
 
@@ -424,4 +424,84 @@ main {
 .controls .prev:hover,
 .controls .next:hover {
     color: #333;
+}
+
+/* Homepagina Galerij */
+
+.galerij-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.gallery-text h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.gallery-text p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.gallery-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.carousel-images {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+}
+
+.carousel-images img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.carousel-button.prev {
+    left: 0;
+}
+
+.carousel-button.next {
+    right: 0;
 }

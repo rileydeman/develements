@@ -2,6 +2,7 @@ main {
     #homeHead {
         display: flex;
         height: 90vh;
+        background-color: rgb(195, 212, 182);
 
         #left {
             width: 50%;

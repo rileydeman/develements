@@ -121,7 +121,7 @@ include('app/db/db-conn.php');
                     foreach ($reviews as $index => $review) { ?>
                         <div class='review slide' id='slide-<?= $index ?>'>
                             <div class='review-content'>
-                                <h2><?php $review['name'] ?></h2>
+                                <h2><?= $review['name'] ?></h2>
                                 <div class='rating'>
                                 </div>
                                 <p class='comment'><?= $review['comment'] ?></p>

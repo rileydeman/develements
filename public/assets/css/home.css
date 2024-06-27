@@ -330,45 +330,85 @@ h2 {
 }
 
 /* Additional CSS for Testimonials Section */
-.testimonial-header {
-    margin-bottom: 20px;
-}
 
-.testimonial-header h2 {
-    font-size: 2.5rem;
-    color: #195019;
-}
-
-.testimonials-slider {
+.reviews-container {
     width: 80%;
-    margin: auto;
-    overflow: hidden; /* Ensure content doesn't overflow */
-}
-
-.swiper-wrapper {
-    display: flex; /* Display slides horizontally */
-}
-
-.swiper-slide {
-    flex: 0 0 auto; /* Prevent slides from stretching */
-    width: 100%; /* Ensure each slide takes full width */
-}
-
-.swiper-pagination {
-    margin-top: 20px;
-}
-
-.testimonial {
-    background: white;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    text-align: center;
-    margin: auto; /* Center testimonial content */
 }
 
-.testimonial p {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-} 
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.review {
+    display: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.review.active {
+    display: block;
+}
+
+.review-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.review h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+.rating {
+    margin: 5px 0;
+}
+
+.comment {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls .prev,
+.controls .next {
+    cursor: pointer;
+    font-size: 2em;
+    color: #4CAF50;
+    user-select: none;
+    padding: 10px;
+}
+
+.controls .prev:hover,
+.controls .next:hover {
+    color: #333;
+}

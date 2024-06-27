@@ -93,50 +93,49 @@ include('app/db/db-conn.php');
         </section>
 
         <section id="recensies">
-            <h2>Testimonials</h2>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
+            <h2>- Recensies -</h2>
+            <div class="reviews-container">
+
+            <div class="slideshow-container">
                 <?php
+                    $reviews = [
+                        [
+                            'name' => 'Gerda',
+                            'rating' => 5,
+                            'comment' => 'Ik geniet van mijn nieuwe zwemvijver, helemaal prachtig.',
+                            'date' => '2023-06-01'
+                        ],
+                        [
+                            'name' => 'Jan',
+                            'rating' => 4,
+                            'comment' => 'Mijn tuin is prachtig aangemaakt, bedankt Hendrik!.',
+                            'date' => '2023-05-22'
+                        ],
+                        [
+                            'name' => 'Sam',
+                            'rating' => 3,
+                            'comment' => 'Geweldige skills!.',
+                            'date' => '2023-04-15'
+                        ]
+                    ];
 
-$testimonial = [
-    [
-        "name" => "Jayden",
-        "comment" => "This is the first testimonial",
-    ],
-    [
-        "name" => "Rick",
-        "comment" => "This is the second testimonial",
-    ],
-    [
-        "name" => "Riley",
-        "comment" => "This is the third testimonial",
-    ],
-    [
-        "name" => "Alex",
-        "comment" => "This is the fourth",
-    ],
-    [
-        "name" => "Taylor",
-        "comment" => "This is the fith",
-    ]
-];
-
-foreach ($testimonial as $comment) {
-    ?>
-    <div class="swiper-slide">
-        <div class="testimonial">
-            <p><?= $comment["comment"]; ?></p>
-            <h3>- <?= $comment["name"]; ?></h3>
-        </div>
-    </div>
-    <?php
-}
-?>
-                </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+                    foreach ($reviews as $index => $review) {
+                        echo "<div class='review slide' id='slide-{$index}'>";
+                        echo "<div class='review-content'>";
+                        echo "<h2>{$review['name']}</h2>";
+                        echo "<div class='rating'>";
+                        echo "</div>";
+                        echo "<p class='comment'>{$review['comment']}</p>";
+                        echo "</div>";
+                        echo "</div>";
+                    }
+                ?>
             </div>
+            <div class="controls">
+                <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+                <span class="next" onclick="plusSlides(1)">&#10095;</span>
+            </div>
+    </div>
         </section>
     </main>
 

@@ -129,10 +129,6 @@ include('app/db/db-conn.php');
                         </div>
                     <?php } ?>
                 </div>
-                <div class="controls">
-                    <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
-                    <span class="next" onclick="plusSlides(1)">&#10095;</span>
-                </div>
             </div>
         </section>
     </main>

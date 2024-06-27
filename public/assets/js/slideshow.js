@@ -18,7 +18,7 @@ const plusSlides = (n) => {
 
 const autoShowSlides = () => {
     plusSlides(1);
-    setTimeout(autoShowSlides, 3000); // Change slide every 3 seconds
+    setTimeout(autoShowSlides, 3000); // Verander slide every 3 seconds
 };
 
 document.addEventListener('DOMContentLoaded', () => {

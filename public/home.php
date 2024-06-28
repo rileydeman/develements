@@ -159,7 +159,7 @@ include ('app/db/db-conn.php');
         <?php include ('public/core/footer.php'); ?>
     </footer>
 
-    <script>
+    <!--<script>
         const carouselImages = document.querySelector('.carousel-images');
         const images = document.querySelectorAll('.carousel-images img');
         const prevButton = document.querySelector('.carousel-button.prev');
@@ -181,7 +181,7 @@ include ('app/db/db-conn.php');
             index = (index < images.length - 1) ? index + 1 : 0;
             showImage(index);
         });
-    </script>
+    </script>-->
 </body>
 
 </html>

@@ -3,7 +3,7 @@
         <a href="/"><img src="/public/assets/img/logo_full.png" alt="Description of image"></a>
     </div>
     <ul class="nav-links">
-        <li><a href="/"><i class="fi fi-rr-home"></i> Galerij</a></li>
+        <li><a href="/public/slideshows.php?id=4"><i class="fi fi-rr-home"></i> Galerij</a></li>
         <li><a href="/about"><i class="fi fi-rr-info"></i> Diensten</a></li>
         <li><a href="/contact"><i class="fi fi-rr-user"></i> Contact</a></li>
         <li><a href="tel:3106123456789" class="animated-button">+(31) 06 123456789</a></li>

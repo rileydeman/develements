@@ -78,7 +78,7 @@ include ('app/db/db-conn.php');
         <section id="galerij">
     <div id="galerij-container">
         <img src="public/assets/img/vakmanschap.png" style="margin-top: 50px" alt="Image 3">
-        <button class="gallery-button">Mijn Galerij</button>
+         <a href="public/slideshows.php?id=1"><button class="gallery-button" target="_blank">Mijn Galerij</button></a>
         <div class="carousel">
     <div class="carousel-images">
         <img src="public/assets/img/nieuwtuin2.jpg" alt="Image 1">
@@ -158,6 +158,30 @@ include ('app/db/db-conn.php');
     <footer>
         <?php include ('public/core/footer.php'); ?>
     </footer>
+
+    <script>
+        const carouselImages = document.querySelector('.carousel-images');
+        const images = document.querySelectorAll('.carousel-images img');
+        const prevButton = document.querySelector('.carousel-button.prev');
+        const nextButton = document.querySelector('.carousel-button.next');
+
+        let index = 0;
+
+        function showImage(index) {
+            const offset = -index * 100;
+            carouselImages.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            index = (index > 0) ? index - 1 : images.length - 1;
+            showImage(index);
+        });
+
+        nextButton.addEventListener('click', () => {
+            index = (index < images.length - 1) ? index + 1 : 0;
+            showImage(index);
+        });
+    </script>
 </body>
 
 </html>

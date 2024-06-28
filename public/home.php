@@ -29,6 +29,7 @@ include ('app/db/db-conn.php');
         const BASEURL = "<?= BASEURL ?>";
     </script>
     <script defer src="/public/assets/js/home-slideshow.js"></script>
+    <script defer src="/public/assets/js/homepageGal.js"></script>
 </head>
 
 <body>
@@ -79,14 +80,17 @@ include ('app/db/db-conn.php');
         <img src="public/assets/img/vakmanschap.png" style="margin-top: 50px" alt="Image 3">
         <button class="gallery-button">Mijn Galerij</button>
         <div class="carousel">
-            <button class="carousel-button prev">&lt;</button>
-            <div class="carousel-images">
-                <img src="public/assets/img/nieuwtuin2.jpg" alt="Image 1">
-                <img src="public/assets/img/tuin1.webp" alt="Image 2">
-                <img src="public/assets/img/tuin6.webp" alt="Image 3">
-            </div>
-            <button class="carousel-button next">&gt;</button>
-        </div>
+    <div class="carousel-images">
+        <img src="public/assets/img/nieuwtuin2.jpg" alt="Image 1">
+        <img src="public/assets/img/tuin1.webp" alt="Image 2">
+        <img src="public/assets/img/tuin6.webp" alt="Image 3">
+    </div>
+    <div class="carousel-buttons">
+        <button class="carousel-button prev">&lt;</button>
+        <button class="carousel-button next">&gt;</button>
+    </div>
+</div>
+
     </div>
 </section>
 
@@ -116,19 +120,19 @@ include ('app/db/db-conn.php');
                             'name' => 'Gerda',
                             'rating' => 5,
                             'comment' => 'Ik geniet van mijn nieuwe zwemvijver, helemaal prachtig.',
-                            'date' => '2023-06-01'
+                            //'date' => '2023-06-01'
                         ],
                         [
                             'name' => 'Jan',
                             'rating' => 4,
                             'comment' => 'Mijn tuin is prachtig aangemaakt, bedankt Hendrik!.',
-                            'date' => '2023-05-22'
+                            //'date' => '2023-05-22'
                         ],
                         [
                             'name' => 'Sam',
                             'rating' => 3,
                             'comment' => 'Geweldige skills!.',
-                            'date' => '2023-04-15'
+                            //'date' => '2023-04-15'
                         ]
                     ];
 
@@ -136,7 +140,7 @@ include ('app/db/db-conn.php');
                         <div class='review slide' id='slide-<?= $index ?>'>
                             <div class='review-content'>
                                 <div class="review-header">
-                                    <h2 style="margin-left:3vw;"><?= $review['name']?></h2><small style="margin-left:0.5vw;font-size:12px;">  (<?= $review['date'] ?>)</small>
+                                    <h2 style="margin-left:3vw;"><?= $review['name']?></h2><small style="margin-left:0.5vw;font-size:12px;"></small>
                                 </div>
 
                                 <div class='rating'>

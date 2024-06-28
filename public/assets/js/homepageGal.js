@@ -1,23 +1,21 @@
-let currentIndex = 0;
+const carouselImages = document.querySelector('.carousel-images');
+        const images = document.querySelectorAll('.carousel-images img');
+        const prevButton = document.querySelector('.carousel-button.prev');
+        const nextButton = document.querySelector('.carousel-button.next');
 
-const images = document.querySelectorAll('.carousel-images img');
-const totalImages = images.length;
+        let index = 0;
 
-document.querySelector('.carousel-button.next').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % totalImages;
-    updateCarousel();
-});
+        function showImage(index) {
+            const offset = -index * 100;
+            carouselImages.style.transform = `translateX(${offset}%)`;
+        }
 
-document.querySelector('.carousel-button.prev').addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-    updateCarousel();
-});
+        prevButton.addEventListener('click', () => {
+            index = (index > 0) ? index - 1 : images.length - 1;
+            showImage(index);
+        });
 
-function updateCarousel() {
-    const offset = -currentIndex * 100;
-    images.forEach(img => {
-        img.style.transform = `translateX(${offset}%)`;
-    });
-}
-
-updateCarousel();
+        nextButton.addEventListener('click', () => {
+            index = (index < images.length - 1) ? index + 1 : 0;
+            showImage(index);
+        });

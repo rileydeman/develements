@@ -18,7 +18,6 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-    height: 11vh;
 }
 
 .navbar {
@@ -107,7 +106,6 @@ header {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
 }
 
 .animated-button {

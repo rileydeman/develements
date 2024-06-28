@@ -1,13 +1,17 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | siteName</title>
-
     <link rel="icon" href="">
 
     <!-- Linking of the CSS files -->
@@ -21,9 +25,7 @@
     <script defer src="/public/assets/js/app.js"></script>
     <script defer src="/public/assets/js/contactForm.js"></script>
 </head>
-
 <body>
-
     <header>
         <?php include "core/header.php"; ?>
     </header>
@@ -49,7 +51,5 @@
     <footer>
         <?php include "core/footer.php"; ?>
     </footer>
-
 </body>
-
 </html>

@@ -12,6 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .imageContainer {
@@ -74,6 +75,7 @@
     width: 30vw;
     height: 70vh;
     padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #hendrikImage {
@@ -94,6 +96,7 @@
     height: 80vh;
     padding: 10px;
     margin-left: 5vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #hendrik {

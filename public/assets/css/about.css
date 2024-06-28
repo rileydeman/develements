@@ -222,6 +222,7 @@ main {
 
     #contactContainer {
         height: 80vh;
+        margin-bottom: 1vh;
     }
 
     h1 {

@@ -533,7 +533,7 @@ main {
 }
 
 .carousel-button.prev {
-    left: 0;
+    left: -400px;
 }
 
 .carousel-button.next {
